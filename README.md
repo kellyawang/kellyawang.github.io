@@ -1,3 +1,3 @@
-# kw6.github.io
+# kellyawang.github.io
 Personal website
 
