@@ -273,20 +273,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-/*	background: url(../img/blueSky.JPG) no-repeat center top; */
-/*	background: url(../img/drinks.JPG) no-repeat center top; */
-/*	background: url(../img/youRock.JPG) no-repeat center top; 
-	background: url(../img/ShelburneFarms.JPG) no-repeat center top; 
-	background: url(../img/yellowflowers1.JPG) no-repeat center top; 
-	background: url(../img/Spheres.JPG) no-repeat center top; 
-	background: url(../img/UK_fence.JPG) no-repeat center top; */
-	background: url(../img/UK_hand2_72px.JPG) no-repeat center top; 
-	/*background: url(../img/TwoViewCube.JPG) no-repeat center top;    2  */
-	
-
-/*	background: url(../img/sunflower.JPG) no-repeat center top; 
-/*	background: url(../img/Spheres.JPG) no-repeat center top; /* with no profile pic */
-/*	background: url(../img/cows1.jpg) no-repeat center top;    */
+	background: url(../img/UK_hand2.jpg) no-repeat center top; 
 	margin-top: 30px;
 	padding-top:120px;
 	text-align:center;
