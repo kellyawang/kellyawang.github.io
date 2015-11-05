@@ -39,8 +39,9 @@ body {
 }
 
 ::selection {
-    background: #16a085;
-    color: #a4003a;
+    background: #74c9be;
+/*    #16a085;  */
+/*    color: #a4003a; */
     text-shadow: none;
 }
 
@@ -321,8 +322,8 @@ a:after {
 	background: #f5f5f5;
 	margin-top: 0px;
 	padding-top: 40px;
-	border-bottom: 1px solid #ddd;
-	text-align: center;
+/*	border-bottom: 1px solid #ddd;  */
+/*	text-align: center;  */
 }
 
 #greywrap .callout {
@@ -332,7 +333,7 @@ a:after {
 #greywrap p {
 	margin-left: 30px;
 	margin-right: 30px;
-	letter-spacing: 1px;
+/*	letter-spacing: 1px;  */
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
