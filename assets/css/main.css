@@ -63,7 +63,8 @@ body {
  */
 
  img {
-    vertical-align: middle;
+    vertical-align: middle; 
+    padding: 30px 40px 40px 40px; 
 }
 
 /*
@@ -158,6 +159,10 @@ a img {
 
 .odd a img {
     background: #f5f5f5;
+}
+
+.sectionphoto {
+    padding: 0px;
 }
 
 /* Titles */
