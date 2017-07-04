@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="Kelly A. Wang Portfolio Website">
+    <title>{{ page.title }}</title>
+    <!-- stylesheets -->
+    <link href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <header class="site-header">
+            <nav>
+                <!-- may need to change this to customize main navbar -->
+              <ul class="nav nav-justified">
+                  <li class="active"><a href="#projects">Projects</a></li>
+                  <li><a href="/">About</a></li>
+                  <li><a href="/">Resume</a></li>
+              </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container">
+      {{ content }}
+    </div><!-- /.container -->
+
+    <footer>
+      <div id="footer-label">Contact Me:</div>
+      <ul>
+          <li>20kwang07(at)gmail(dot)com</li>
+          <li><a href="https://github.com/hankquinlan">LinkedIn</a></li>
+          <li><a href="https://github.com/hankquinlan">Github</a></li>
+      </ul>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="assets/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/retina.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-func.js"></script> -->
+  </body>
+</html>
