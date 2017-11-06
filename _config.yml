@@ -1,3 +1,5 @@
 name: Kelly Wang Portfolio
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+sass:
+  style: compressed

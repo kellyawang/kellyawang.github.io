@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Kelly A. Wang Portfolio Website">
+    <meta name="author" content="Theme adapted from Carlos Alvarez - Alvarez.is - blacktie.co">
+
+    <!-- No caching -->
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
     <title>{{ page.title }}</title>
+
     <!-- stylesheets -->
     <link href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/portfolio.css">
+    <!-- Default stylesheets for Carlos Alvarez -->
+    <link rel="stylesheet" href="css/icomoon.css">
+
+    <!-- custom scripts to include -->
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="../assets/js/index.js"></script>
   </head>
   <body>
     <div class="container">
         <header class="site-header">
-            <nav>
+            <nav id="mainNavbar" class="navbar">
+                <div class="container-fluid">
+                <!-- MAIN SITE NAVBAR -->
                 <!-- may need to change this to customize main navbar -->
-              <ul class="nav nav-justified">
-                  <li class="active"><a href="#projects">Projects</a></li>
-                  <li><a href="/">About</a></li>
-                  <li><a href="/">Resume</a></li>
-              </ul>
+                  <div class="navbar-header">
+                      <a class="navbar-brand" href="#">K.W.</a>
+                  </div>
+                  <ul class="nav navbar-nav nav-center">
+                      <li class="active"><a href="#projects">Projects</a></li>
+                      <li><a href="/">About</a></li>
+                      <li><a href="/">Resume</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="active"><a href="#projects">In</a></li>
+                      <li><a href="/">Git</a></li>
+                      <li><a href="/">Pen</a></li>
+                  </ul>
+              </div>
             </nav>
         </header>
     </div>
-
-    <div class="container">
-      {{ content }}
-    </div><!-- /.container -->
-
-    <footer>
-      <div id="footer-label">Contact Me:</div>
-      <ul>
-          <li>20kwang07(at)gmail(dot)com</li>
-          <li><a href="https://github.com/hankquinlan">LinkedIn</a></li>
-          <li><a href="https://github.com/hankquinlan">Github</a></li>
-      </ul>
-    </footer>
+    {{ content }}
+    <div id="footerwrap" name="contact">
+        <div class="container">
+          <!-- <div id="footer-label">Contact Me:</div> -->
+          <p>
+              <span class="icon icon-envelop"></span> 20kwang07(at)gmail(dot)com</a> <br/>
+              <span class="icon icon-envelop"></span> Git</a> <br/>
+              <span class="icon icon-envelop"></span> LinkedIn </a> <br/>
+              <span class="icon icon-envelop"></span> CodePen </a> <br/>
+          </p>
+        </div>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

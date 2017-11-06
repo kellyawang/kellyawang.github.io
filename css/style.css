@@ -1,20 +1,28 @@
 body {
     padding-top: 20px;
-    margin: 60px auto;
+    /*margin: 60px auto;*/
 }
 
-div #projects h2 {
+/* ========================
+    TODO: Centered nav items
+   ======================== */
+nav .nav.nav-center {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: 0;
+    float: none;
     text-align: center;
 }
 
-nav ul, footer ul {
+nav ul { /*, footer ul {*/
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    text-align: center;
+    /*text-align: center;*/
 }
-nav ul li, footer ul li {
+nav ul li {/*, footer ul li {*/
     display: inline;
     margin-right: 20px;
 }
@@ -34,12 +42,103 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* ==========================================================================
+   TODO: Collapsing Navbar Styles
+   ========================================================================== */
+
+@media(min-width:768px) {
+  .navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding: 15px 0;
+    /* Add additional styles here for the UNCOLLAPSED state */
+  }
+  .navbar-default.affix {
+    padding: 0;
+    /* Add additional styles here for the COLLAPSED state */
+  }
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+    background: url(../assets/img/banner.jpg) no-repeat center top;
+    margin-top: 30px;
+    padding-top:120px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+    color:#ffffff;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    letter-spacing: 8px;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#headerwrap p {
+    color:#ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 40px;
+    letter-spacing: 3px;
+    margin-left: 10% ;
+    /*margin-left: 80px;*/
+/*	text-shadow: 1px 1px 1px #000; */
+}
+
+#footerwrap {
+    /*background: #1b1b1b; /* #2b2b2b */
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    /*border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #ddd;*/
+    text-align: center;
     font-size: .8em;
 }
 
-footer #footer-label {
+/* From original website */
+#footerwrap h4 {
+    color: white;
+}
+
+/* From new website */
+#footerwrap #footer-label {
     display: block;
     font-size: 1.17em;
     -webkit-margin-before: 1em;
@@ -50,11 +149,25 @@ footer #footer-label {
     text-decoration: none;
 }
 
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
+/* Custom styling for Projects header -
+* Projects h2 comes with 20px top margin
+*/
+div #projects-wrapper {
+    padding: 50px 40px;
 }
 
-ul.posts li {
-    list-style: none;
+/* Custom styling for Projects nav bar -
+* Projects h2 comes with 10px bottom margin
+*/
+div .row#row-projects-nav{
+    padding: 40px 0px 10px 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/* Custom styling for Projects nav bar -
+* Projects h2 comes with 10px bottom margin
+*/
+div .row#row-projects{
+    padding: 40px 0px 10px 0px;
 }
