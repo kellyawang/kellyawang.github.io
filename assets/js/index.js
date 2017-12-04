@@ -21,8 +21,8 @@ $(document).ready(function(){
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.code').removeClass('hide');
       $('.film, .interactive, .art').addClass('hide');
+      $('.code').removeClass('hide');
     });
 
     // Show urban
@@ -30,8 +30,8 @@ $(document).ready(function(){
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.film').removeClass('hide');
       $('.code, .interactive, .art').addClass('hide');
+      $('.film').removeClass('hide');
     });
 
     // Show portrait
@@ -39,8 +39,8 @@ $(document).ready(function(){
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.interactive').removeClass('hide');
       $('.code, .film, .art').addClass('hide');
+      $('.interactive').removeClass('hide');
     });
 
     // Show portrait
@@ -48,8 +48,8 @@ $(document).ready(function(){
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.art').removeClass('hide');
       $('.code, .film, .interactive').addClass('hide');
+      $('.art').removeClass('hide');
     });
 
 });

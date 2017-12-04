@@ -10,13 +10,20 @@ nav .nav.nav-center {
     display: inline-block;
     left: 0;
     right: 0;
-    margin: 0;
+    margin: auto;
     float: none;
     text-align: center;
 }
 
+#mainNavbar {
+    background: #fff;
+    padding: 20px;
+/*    background: #f0f0f0;*/
+}
+
 nav ul { /*, footer ul {*/
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+/*    font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+    font-family: 'Lato', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -35,8 +42,18 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Bitter', serif;
+/*    font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
 }
+
+h1.title-text {
+   font-size: 6em;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -50,6 +67,10 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.left {
+    text-align: left;
 }
 
 .centered {
@@ -130,6 +151,7 @@ ul.posts li {
     border-bottom: 1px solid #ddd;*/
     text-align: center;
     font-size: .8em;
+    font-family: 'Lato', sans-serif;
 }
 
 /* From original website */
@@ -152,9 +174,6 @@ ul.posts li {
 /* Custom styling for Projects header -
 * Projects h2 comes with 20px top margin
 */
-div #projects-wrapper {
-    padding: 50px 40px;
-}
 
 /* Custom styling for Projects nav bar -
 * Projects h2 comes with 10px bottom margin
