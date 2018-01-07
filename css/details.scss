@@ -1,0 +1,78 @@
+---
+---
+#detailsWrapper {
+
+    .headerwrap#portraits {
+        background: url("../assets/img/banners/portraits_banner_1.jpg") no-repeat center top;
+        overflow: hidden;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+    }
+
+    .headerwrap#elephant {
+        background: url("../assets/img/banners/elephant_banner_1.jpg") no-repeat center top;
+        overflow: hidden;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100%;
+
+    }
+
+    .headerwrap#cybercity {
+        background: url("../assets/img/banners/cybercity_banner_1.jpg") no-repeat center top;
+        overflow: hidden;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100%;
+
+    }
+    .headerwrap#split {
+        background: url("../assets/img/banners/split_banner_2.png") no-repeat center top;
+        overflow: hidden;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100%;
+
+    }
+
+    .videowrap {
+        margin-top: 40px;
+        min-height: 520px;
+        iframe {
+            width:75%;
+            height:550px;
+        }
+    }
+
+    ul {
+        list-style: none;
+        font-size: 1.1em;
+        font-family: 'Montserrat', sans-serif;
+        padding: 1rem;
+        li {
+            margin-right: 1rem;
+            padding: 1rem;
+            b {
+                font-weight: 700;
+            }
+        }
+    }
+
+    .sidebar {
+        margin-top: 45px;
+    }
+
+    .descriptionWrapper {
+        margin-right: 20px;
+    }
+}

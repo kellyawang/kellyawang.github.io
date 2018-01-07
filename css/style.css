@@ -1,6 +1,15 @@
 body {
     padding-top: 20px;
     /*margin: 60px auto;*/
+
+}
+
+.page-title-margin-bottom {
+    height: 40px;
+}
+
+.list-buffer-top {
+    height: 25px;
 }
 
 /* ========================
@@ -17,13 +26,13 @@ nav .nav.nav-center {
 
 #mainNavbar {
     background: #fff;
-    padding: 20px;
+    padding: 10px 20px;
 /*    background: #f0f0f0;*/
 }
 
 nav ul { /*, footer ul {*/
 /*    font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -50,14 +59,24 @@ h1.title-text {
    font-size: 6em;
 }
 
+h2 {
+    font-family: 'Bitter', sans-serif;
+}
 h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
 }
 
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8em;
     color: #333;
+    margin-bottom: 20px;
 }
 
 ul.posts {
@@ -99,14 +118,14 @@ ul.posts li {
    Wrap Sections
    ========================================================================== */
 
-#headerwrap {
-    background: url(../assets/img/banner.jpg) no-repeat center top;
+.headerwrap {
+    /* background: url(../assets/img/banner.jpg) no-repeat center top; */
     margin-top: 30px;
     padding-top:120px;
     text-align:center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 650px;
+    min-height: 520px;
     width: 100%;
 
     -webkit-background-size: 100%;
@@ -120,7 +139,7 @@ ul.posts li {
     background-size: cover;
 }
 
-#headerwrap h1 {
+.headerwrap h1 {
     color:#ffffff;
     margin-top: 50px;
     padding-bottom: 30px;
@@ -130,7 +149,7 @@ ul.posts li {
     text-shadow: 2px 2px 2px #000;
 }
 
-#headerwrap p {
+.headerwrap p {
     color:#ffffff;
     font-size: 40px;
     font-weight: 400;
@@ -151,7 +170,7 @@ ul.posts li {
     border-bottom: 1px solid #ddd;*/
     text-align: center;
     font-size: .8em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* From original website */

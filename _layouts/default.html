@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Kelly A. Wang Portfolio Website">
-    <!-- <meta name="author" content="Theme adapted from Carlos Alvarez - Alvarez.is - blacktie.co"> -->
 
     <!-- No caching -->
     <meta http-equiv="cache-control" content="max-age=0" />
@@ -18,13 +17,15 @@
     <link href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/projects.css">
-    <link href="https://fonts.googleapis.com/css?family=Bitter|Lato" rel="stylesheet">
-    <!-- Default stylesheets for Carlos Alvarez -->
-    <!-- <link rel="stylesheet" href="css/icomoon.css"> -->
+    <link rel="stylesheet" type="text/css" href="/css/details.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Montserrat" rel="stylesheet">
 
     <!-- custom scripts to include -->
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script type="text/javascript" src="../assets/js/index.js"></script>
+    <script defer src="../assets/js/fontawesome/styles/fa-brands.js"></script>
+    <script defer src="../assets/js/fontawesome/styles/fa-solid.js"></script>
+    <script src="../assets/js/fontawesome/fontawesome.js"></script>
   </head>
   <body>
     <div id="siteWrap">
@@ -39,12 +40,13 @@
                   <ul class="nav navbar-nav nav-center">
                       <li><a class="navbarLabel" href="/">About</a></li>
 <!--                      <li class="active"><a href="#projects">Projects</a></li>-->
-<!--                      <li><a href="/">Resume</a></li>-->
+                      <!-- <li><a href="/">Resume</a></li> -->
+                      <li><a class="navbarLabel" href="assets/pdf/KellyWang_Resume.pdf">Resume</a></li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right">
-                      <li class="navbarLabel"><a href="/">In</a></li>
-                      <li class="navbarLabel"><a href="/">Git</a></li>
-                      <li class="navbarLabel"><a href="/">Pen</a></li>
+                      <li class="navbarLabel"><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
+                      <li class="navbarLabel"><a href="/"><i class="fab fa-github"></i></a></li>
+                      <li class="navbarLabel"><a href="/"><i class="fab fa-codepen"></i></a></li>
                   </ul>
             </nav>
         </header>
@@ -54,10 +56,10 @@
         <div class="container">
           <!-- <div id="footer-label">Contact Me:</div> -->
           <p>
-              20kwang07(at)gmail(dot)com<br>
-              Git<br>
-              LinkedIn<br>
-              CodePen<br>
+              <i class="fas fa-envelope"></i> 20kwang07(at)gmail(dot)com<br>
+              <i class="fab fa-github"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fab fa-codepen"></i>
           </p>
         </div>
       </div>
