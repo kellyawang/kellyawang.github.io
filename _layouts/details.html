@@ -32,8 +32,8 @@ title: Kelly Wang Portfolio Website
                 </div>
                 <div class="col-sm-8 col-md-10" id="details-p">
                     <h2>{{ page.workTitle }}</h2>
-                    {% for para in page.summary %}
-                    <p>{{ para.line }}</p>
+                    {% for summary in page.summary %}
+                    <p>{{ summary.line }}</p>
                     {% endfor %}
                 </div>
             </div>
