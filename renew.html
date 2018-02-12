@@ -1,21 +1,31 @@
 ---
 layout: details
-workTitle: re:NEW
+workTitle: RE:new
 id: renew
-type: video
 videoLink: 'https://www.youtube.com/embed/mb2kgqdLRjs?rel=0'
 workDetails:
 - label: DATE
   data: December 2014
 - label: MEDIA
   data: Film
+- label: HONORS
+  data: Best All-Around Film (2015)
 summary:
 - line: Desktop items come to life in this object animation short. One day,
     a new, technologically advanced device enters into their midst. However, even
     as it threatens to make them obsolete, the next release of Cube is already in
     production.
-- line: Won "Best All-Around Film" in Williams College Movie Madness Contest (2015)
+- line: This film won "Best All-Around Film" in the Williams College Movie Madness Contest (2015)
 ---
 <div class="row">
-    <p>More details to come...</p>
+    <div class="col-sm-4 col-md-2">
+        <!-- placeholder -->
+    </div>
+    <div class="col-sm-8 col-md-10 ProjectDetails">
+        <div class="videowrap" id="{{page.id}}">
+            <iframe src="{{ page.videoLink }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <p>More details to come...</p>
+    </div>
 </div>

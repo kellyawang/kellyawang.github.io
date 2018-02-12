@@ -55,6 +55,10 @@ nav .nav.nav-center {
 /*    background: #f0f0f0;*/
 }
 
+#navbarLabel {
+    font-size: 2rem;
+}
+
 nav ul { /*, footer ul {*/
 /*    font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
     font-family: 'Montserrat', sans-serif;
@@ -79,7 +83,7 @@ nav ul li a {/*, footer ul li {*/
 
 /* taken from Bootstrap navs css to override defaults */
 .nav > li > a:focus, .nav > li > a:hover {
-    color: #37ADB3;/*niceteal #37ADB3;/*green #36816c;/*orng #ce5d00; /*lightteal #74c9be; /*drk teal#3c9d9f; std blue #337ab7;*/
+    color: #333;/*niceteal #37ADB3;/*green #36816c;/*orng #ce5d00; /*lightteal #74c9be; /*drk teal#3c9d9f; std blue #337ab7;*/
     background-color: #fff;
 }
 
@@ -94,7 +98,7 @@ nav a.navbar-brand {
 }
 
 nav a.navbar-brand:hover {
-    color: #37ADB3; /*orange #f0672c;*/
+    color: #333;/*#37ADB3; /*orange #f0672c;*/
 }
 
 h1 {
@@ -353,12 +357,17 @@ ul.posts li {
 }
 
 #footerwrap span.FooterSocialElem > a:hover {
-    color: #37ADB3;/*best gold #e5c817;/*gold#f2d318;/* blue#4494ee;/*teal #37ADB3; /*yellow #fcf113;*/
+    color: #dfdfdf;/*teal #37ADB3;/*best gold #e5c817;/*gold#f2d318;/* blue#4494ee; /*yellow #fcf113;*/
 }
+
+/* ==========================================================================
+   Project Grid Sections
+   ========================================================================== */
 
 /* Custom styling for Projects header -
 * Projects h2 comes with 20px top margin
 */
+
 
 /* Custom styling for Projects nav bar -
 * Projects h2 comes with 10px bottom margin
@@ -369,8 +378,17 @@ div .row#row-projects-nav{
     padding-right: 20%;
 }
 
-/* Custom styling for Projects nav bar -
-* Projects h2 comes with 10px bottom margin
+nav#projects-nav span {
+    padding: 1rem 2rem;
+}
+
+/* nav#projects-nav li:hover {
+    color: #37ADB3 !important;
+    background-color: none !important;
+} */
+
+
+/* Custom styling for Projects grid -
 */
 div .row#row-projects{
     padding: 40px 0px 10px 0px;

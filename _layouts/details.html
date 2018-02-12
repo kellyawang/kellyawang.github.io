@@ -4,23 +4,17 @@ title: Kelly Wang Portfolio Website
 ---
 <!-- wrapperId maybe not needed -->
 <div id="detailsWrapper">
-    {% if page.type != "video" %}
     <div class="headerwrap" id="{{page.id}}">
         <header class="clearfix">
         </header>
     </div><!-- /headerwrap -->
-    {% elsif page.type =="video" %}
-    <div class="centered videowrap" id="{{page.id}}">
-        <iframe src="{{ page.videoLink }}" frameborder="0" allowfullscreen></iframe>
-    </div>
-    {% endif %}
     <div class="page-title-margin-bottom"></div>
     <div class="container">
         <div class="row">
             <div class="descriptionWrapper">
                 <div class="col-sm-4 col-md-2">
                     <!-- <div class="list-buffer-top"></div> -->
-                    <div class="sidebar">
+                    <div class="Sidebar">
                         {% for detail in page.workDetails %}
                         <h4>{{ detail.label }}</h4>
                         <p>{{ detail.data }}</p>
@@ -30,7 +24,7 @@ title: Kelly Wang Portfolio Website
                         {% endfor %}
                     </div>
                 </div>
-                <div class="col-sm-8 col-md-10" id="details-p">
+                <div class="col-sm-8 col-md-10 ProjectDetails" id="project-details-desc">
                     <h2>{{ page.workTitle }}</h2>
                     {% for summary in page.summary %}
                     <p>{{ summary.line }}</p>
@@ -40,4 +34,4 @@ title: Kelly Wang Portfolio Website
         </div>
         {{ content }}
     </div>
-</div><!-- /container -->
+</div>

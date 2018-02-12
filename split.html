@@ -2,6 +2,7 @@
 layout: details
 workTitle: Split
 id: split
+videoLink: 'https://www.youtube.com/embed/iyvgNqqCyss?rel=0'
 workDetails:
 - label: DATE
   data: May 2016
@@ -14,8 +15,15 @@ summary:
     algorithm. Found faces are tracked and mapped in real time to a 2D array of
     pixels, and translated to a reactive video display.
 - line: Exhibited in a gallery show at the Williams College Museum of Art.
----
-<div class="container row">
-    <p>See the <a href="https://github.com/kellyawang/SPLIT">source code</a> on Github</p>
 
+---
+<div class="row">
+    <div class="col-sm-4 col-md-2">
+        <p>See the <a href="https://github.com/kellyawang/SPLIT">source code</a> on Github</p>
+    </div>
+    <div class="col-sm-8 col-md-10 ProjectDetails">
+        <div class="videowrap" id="{{page.id}}">
+            <iframe src="{{ page.videoLink }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
 </div>

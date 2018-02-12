@@ -50,12 +50,23 @@
                 padding: 1rem;
                 cursor: pointer;
 
-                &:hover {
-                  background: #eee;
-                }
+                span {
+                    -webkit-transition:color .2s;
+                    -moz-transition:color .2s;
+                    -ms-transition:color .2s;
+                    -o-transition:color .2s;
+                    transition:color .2s;
 
-                #navbarLabel {
-                    font-size: 2rem;
+                    -webkit-transition:background .2s;
+                    -moz-transition:background .2s;
+                    -ms-transition:background .2s;
+                    -o-transition:background .2s;
+                    transition:background .2s;
+
+
+                }
+                span:hover {
+                  background: #eee;
                 }
             }
 //            @media (min-width: 400px) {
@@ -66,11 +77,26 @@
 //            }
             // active class; set on click
             .active {
-                background: #444;
                 color: white;
-                &:hover {
-                    color: #444
-                }
+            }
+            .active span {
+                -webkit-transition:color .2s;
+                -moz-transition:color .2s;
+                -ms-transition:color .2s;
+                -o-transition:color .2s;
+                transition:color .2s;
+
+                -webkit-transition:background .2s;
+                -moz-transition:background .2s;
+                -ms-transition:background .2s;
+                -o-transition:background .2s;
+                transition:background .2s;
+                background: #444;
+
+
+            }
+            .active span:hover {
+                color: #444
             }
         }
     }

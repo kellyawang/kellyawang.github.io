@@ -2,7 +2,6 @@
 layout: details
 workTitle: The Sound of Limbo
 id: solimbo
-type: video
 videoLink: 'https://www.youtube.com/embed/aEehoUs4_UA?rel=0'
 workDetails:
 - label: DATE
@@ -13,7 +12,15 @@ summary:
 - line: In a fictional world in which smart watches are smart enough to
     predict our time of death, one woman tries to escape her fate. However,
     immortality comes at a cost.
+
 ---
 <div class="row">
-    <p>More Content to go here...</p>
+    <div class="col-sm-4 col-md-2">
+        <!--  -->
+    </div>
+    <div class="col-sm-8 col-md-10 ProjectDetails">
+        <div class="videowrap" id="{{page.id}}">
+            <iframe src="{{ page.videoLink }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
 </div>

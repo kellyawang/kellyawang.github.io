@@ -2,6 +2,22 @@
 ---
 #detailsWrapper {
 
+    hr {
+        position: relative;
+        border: none;
+        padding-bottom: 20px;
+    }
+
+    hr:before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 25%;
+        width: 50%;
+        height: 2px;
+        background: #ccc;
+    }
+
     .headerwrap#portraits {
         background: url("../assets/img/banners/portraits_banner_1.jpg") no-repeat center top;
         overflow: hidden;
@@ -35,7 +51,7 @@
 
     }
     .headerwrap#split {
-        background: url("../assets/img/banners/split_banner_2.png") no-repeat center top;
+        background: url("../assets/img/banners/split_banner_1.jpg") no-repeat center top;
         overflow: hidden;
 
         -webkit-background-size: cover;
@@ -45,11 +61,76 @@
 
     }
 
+    .headerwrap#solimbo {
+        background: url("../assets/img/banners/solimbo_banner_3.png") no-repeat center top;
+        overflow: hidden;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100%;
+
+    }
+
+    .headerwrap#renew {
+        background: url("../assets/img/banners/renew_kellyshooting_banner.JPG") no-repeat center top;
+        overflow: hidden;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100%;
+
+    }
+
+    .headerwrap#newpioneers {
+        background: url("../assets/img/banners/newpioneers_banner_1.jpg") no-repeat center top;
+        overflow: hidden;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100%;
+
+    }
+
+    .headerwrap#steelskull {
+        background: url("../assets/img/banners/steelskull_banner_1.png") no-repeat center top;
+        overflow: hidden;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100%;
+
+    }
+
+    .headerwrap#colorrush {
+        background: url("../assets/img/banners/colorrush_gameplay_banner.png") no-repeat center top;
+        overflow: hidden;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100%;
+
+    }
+
+    .ProjectDetails {
+        padding-left: 75px;
+    }
+
+    .ProjectDetailsRow {
+        // border-top: 2px solid #999;
+        padding-left: 75px;
+        padding-top: 40px;
+    }
+
     .videowrap {
         margin-top: 40px;
         min-height: 520px;
         iframe {
-            width:75%;
+            width:90%;
             height:550px;
         }
     }
@@ -68,11 +149,15 @@
         }
     }
 
-    .sidebar {
+    .Sidebar {
         margin-top: 45px;
     }
 
     .descriptionWrapper {
         margin-right: 20px;
+    }
+
+    .NewPioneersWrap {
+        padding-top: 20px;
     }
 }
