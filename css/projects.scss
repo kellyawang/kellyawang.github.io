@@ -66,7 +66,7 @@
 
                 }
                 span:hover {
-                  background: #eee;
+                  background: #eee; //light gray #eee //teal 74c9be
                 }
             }
 //            @media (min-width: 400px) {
@@ -109,6 +109,20 @@
         justify-items: center;
         // width: 98vw
         margin: 1rem;
+
+        // animation for hover over a project thumbnail
+        // replaces b-link-fade b-animate-go
+        // .animateMagnify img {
+        //     -webkit-transition:all .3s ease-in-out;
+        //     -moz-transition:all .3s ease-in-out;
+        //     -ms-transition:all .3s ease-in-out;
+        //     -o-transition:all .3s ease-in-out;
+        //     transition:all .3s ease-in-out;
+        // }
+        //
+        // .animateMagnify img:hover {
+        //     transform: scale(1.03);
+        // }
     }
 
     @media (min-width: 500px) {

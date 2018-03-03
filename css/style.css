@@ -15,7 +15,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 /**
@@ -55,8 +55,9 @@ nav .nav.nav-center {
 /*    background: #f0f0f0;*/
 }
 
-#navbarLabel {
-    font-size: 2rem;
+.navbarLabel {
+    /* font-size: 2rem; */
+    font-weight: 600;
 }
 
 nav ul { /*, footer ul {*/
@@ -64,7 +65,7 @@ nav ul { /*, footer ul {*/
     font-family: 'Montserrat', sans-serif;
     padding: 0px;
     list-style: none;
-    /* font-weight: bold; */
+    font-weight: 600;
     /*text-align: center;*/
 }
 nav ul li a {/*, footer ul li {*/
@@ -99,6 +100,55 @@ nav a.navbar-brand {
 
 nav a.navbar-brand:hover {
     color: #333;/*#37ADB3; /*orange #f0672c;*/
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1031; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+}
+
+/* The navigation menu links */
+.sidenav p {
+    padding: 20px 80px 20px 50px;
+    /* text-decoration: none; */
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    /* transition: 0.3s; */
+}
+
+.sidenav a {
+   text-decoration: none;
+}
+
+/* When you mouse over the navigation links, change their color */
+/* .sidenav a:hover {
+    color: #f1f1f1;
+} */
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 
 h1 {
@@ -214,7 +264,8 @@ ul.posts li {
 }
 
 #footerwrap {
-    background: #333; /* #2b2b2b */
+    background: #2b2b2b; /* #333; #2b2b2b */
+    color: #999;
     margin-top: 0px;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -223,9 +274,21 @@ ul.posts li {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* From original website */
-#footerwrap h4 {
-    color: white;
+#footerwrap hr {
+    position: relative;
+    border: none;
+    margin-top: 75px;
+    padding-bottom: 20px;
+}
+
+#footerwrap hr:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 50%;
+    height: 1px;
+    background: #6f6f6f;
 }
 
 /* From new website */
@@ -246,8 +309,25 @@ ul.posts li {
     /* color: #999999; */
 }
 
+#footerwrap p {
+    color: #999;
+    font-size: 14px;
+}
+
+#about-me {
+    padding: 0px 20px 0px 0px;
+    /* border: 1px solid #6f6c6c; */
+    float: left;
+    width: 50%;
+}
+#about-me h2, p {
+    /* color: #999; */
+    text-align: left;
+}
+
 .LowerFooter {
-    /* border-top: 2px solid #6f6c6c; */
+    /* border-top: 1px solid #6f6c6c; */
+    /* padding-top: 40px; */
     font-size: 14px;
     -webkit-box-pack: justify;
     -moz-box-pack: justify;
@@ -273,28 +353,13 @@ ul.posts li {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    margin: 30px 0;
+    /* margin: 30px 0; */
     color: #999999;
     /* padding-top: 30px; */
 
 }
 
 #footerwrap .FooterCopyrightContainer {
-    -webkit-box-ordinal-group: 1;
-    -moz-box-ordinal-group: 1;
-    box-ordinal-group: 1;
-    -webkit-order: 1;
-    -moz-order: 1;
-    order: 1;
-    -ms-flex-order: 1;
-}
-
-#FooterCopyrightText {
-    font-size: 11px;
-    color: #6f6c6c;
-}
-
-#footerwrap .FooterEmailContainer {
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
     box-ordinal-group: 3;
@@ -302,6 +367,21 @@ ul.posts li {
     -moz-order: 3;
     order: 3;
     -ms-flex-order: 3;
+}
+
+/* #FooterCopyrightText {
+    font-size: 11px;
+    color: #6f6c6c;
+} */
+
+#footerwrap .FooterEmailContainer {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    box-ordinal-group: 1;
+    -webkit-order: 1;
+    -moz-order: 1;
+    order: 1;
+    -ms-flex-order: 1;
 }
 
 #footerwrap .FooterSocialContainer {

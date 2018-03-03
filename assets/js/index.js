@@ -8,6 +8,28 @@ $(document).ready(function(){
     //   }
     // });
 
+    /*
+    * Sidebar functions
+    *
+    * Set the width of the side navigation to 450px
+    */
+/*    function openNav() {
+        document.getElementById("about-side-nav").style.width = "450px"
+    }
+    // Set the width of the side navigation to 0
+    function closeNav() {
+        document.getElementById("about-side-nav").style.width = "0";
+    }
+
+    $('#about-label').on('click', function() {
+        openNav();
+    });
+
+    $('.closebtn').on('click', function() {
+        closeNav();
+    });
+*/
+
     // Show all
     $('.filter-all').on('click', function() {
       var $this = $(this);
@@ -60,5 +82,17 @@ $(document).ready(function(){
       $('.code, .film, .interactive, .art').addClass('hide');
       $('.paint').removeClass('hide');
     });
+
+    // Animations for portfolio thumbnails using Animate.css (animate-custom.css) library
+    // $('.sectionphoto').hover(
+    //     function() {
+    //         console.log("hover in");
+    //         $(this).addClass('animated infinite pulse');
+    //     },
+    //     function() {
+    //         console.log("hover out");
+    //         $(this).removeClass('animated infinite pulse');
+    //     }
+    // );
 
 });

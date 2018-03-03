@@ -18,17 +18,31 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/projects.css">
     <link rel="stylesheet" type="text/css" href="/css/details.css">
+    <link rel="stylesheet" type="text/css" href="/css/hover_pack.css">
+    <!-- Enable for Animate.css effects -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Bitter|Montserrat" rel="stylesheet">
 
     <!-- custom scripts to include -->
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script type="text/javascript" src="../assets/js/index.js"></script>
+    <script type="text/javascript" src="../assets/js/hover_pack.js"></script>
     <script defer src="../assets/js/fontawesome/styles/fa-brands.js"></script>
     <script defer src="../assets/js/fontawesome/styles/fa-solid.js"></script>
     <script src="../assets/js/fontawesome/fontawesome.js"></script>
   </head>
   <body>
-    <div id="siteWrap">
+      <!-- <div id="about-side-nav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn">&times;</a>
+          <div>
+              <p>Kelly is a recent grad with a B.A. in Computer Science and Fine Art.
+                She's passionate about Software and Creative Art and she
+                enjoys discovering new and unexpected interactions between the two.
+                She's happiest when she has a lot to do and is learning something new.</p>
+          </div>
+      </div> -->
+      <div id="siteWrap">
+
       <div id="mainNavbar" class="container-fluid">
         <header class="site-header">
             <nav id="mainNavbar" class="navbar navbar-fixed-top">
@@ -38,7 +52,7 @@
                       <a class="navbar-brand navbarLabel" href="/">K.W.</a>
                   </div>
                   <ul class="nav navbar-nav nav-center">
-                      <li><a class="navbarLabel" href="/">About</a></li>
+                      <li><a class="navbarLabel" id="about-label" href="#about-me">About</a></li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right">
                       <li class="navbarLabel"><a href="https://github.com/kellyawang?tab=repositories"><i class="fab fa-github fa-lg"></i></a></li>
@@ -53,6 +67,17 @@
       <div class="page-title-margin-bottom"></div>
       <div id="footerwrap" name="contact">
         <div class="container">
+            <div class="row">
+                <div id="about-me">
+                    <h2>ABOUT ME</h2>
+                    <p>Kelly is a recent grad with a B.A. in Computer Science and Fine Art.
+                        She's passionate about Software and Creative Art and she
+                        enjoys discovering new and unexpected interactions between the two.
+                        She's happiest when she has a lot to do and is learning something new.</p>
+
+                    <hr>
+                </div>
+            </div>
             <div class="row">
                 <div class="LowerFooter">
                     <!-- <div id="footer-label">Contact Me:</div> -->
