@@ -17,10 +17,12 @@ summary:
     design, and open-source music.'
 - line: This short film features a procedurally generated city illuminated by
     neon lights designed, modeled, and rendered as part of a midterm group project.
-    I was responsible for modeling and creating 3D models that were used as
-    primitives in an original grammar that generated the buildings. I also led the
-    team in developing a unified artistic vision that carried through to the final
-    film.
+    I was responsible for creating 3D models that were used as
+    building blocks for the buildings in the city. Given a set of these building blocks,
+    we defined an algorithmic grammar that combined and recombined these small units
+    to produce a single building. I also led the team in developing a unified
+    artistic vision that carried through to the final film.
+- line: Watch in HD!
 
 ---
 <div class="row">
@@ -32,17 +34,47 @@ summary:
             <iframe src="{{ page.videoLink }}" frameborder="0" allowfullscreen></iframe>
         </div>
     <div class="centered">
-        <p>Our group made strategic decisions for the two week span of the project in deciding to split up into teams that focused on creating the basic primitives, generating each building, generating an entire city, and writing scripts and an interface to manage the entire process. Because each building file was so massive, we needed to strategize when we were defining spline curves for the making of the video, and thus created a method for defining splines in a proxy city made up of simple rectangles, and then transferring the camera movements to the real city. Having responsive and dedicated team members allowed us to recognize when we needed to scale down our efforts in certain areas, and how to stay on track and complete each component of the project in a timely manner.
+        <p>Our group made strategic decisions for the two week span of the project
+            in deciding to split up into teams that focused on creating the basic
+            primitive building blocks, generating each building, generating the
+            plan for the entire city (ie. where to place each individual building),
+            and writing scripts and an interface to manage the entire process.
         </p>
     </div> <!-- /centered -->
     <div class="centered">
-        <div class="page-title-margin-bottom"></div>
-        <p>Stills and Behind the Scenes:</p>
-        <p><img width="100%" src="assets/img/details/cybercity/Image3.jpg" alt=""></p>
+        <!-- <div class="page-title-margin-bottom"></div> -->
+        <p>I worked on modeling the terminals in the grammar - each building was generated
+            by combining and adding individual building blocks in unique orientations:</p>
+        <p><img width="100%" src="assets/img/details/cybercity/grammar.png" alt=""></p>
+        <p><img width="100%" src="assets/img/details/cybercity/3wallexps.png" alt=""></p>
+        <p>Windows, for example, looked like this:</p>
+        <div class="container">
+            <div class="row" width="100%">
+                <div class="col-md-4 col-sm-4">
+                    <p><img width="100%" src="assets/img/details/cybercity/primitive2.png" alt=""></p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <p><img width="100%" src="assets/img/details/cybercity/primitive3.png" alt=""></p>
+                </div>
+            </div>
+        </div>
+        <p>Because each building file became so massive, we needed to be strategic
+        when placing each building in the 3D scene, to save memory and
+        to optimize compute time. Our solution was to first create a proxy city made
+        up of simple rectangles, and then copy the locations of each dummy building
+        to the real city. During filming of the video, we created a method for defining spline curves
+        followed by the "camera" in the proxy city, and then we transferred the
+        camera movements to the real city. </p>
+        <p>Having highly collaborative and dedicated team members allowed us to recognize
+            when we needed to scale down our efforts in certain areas. We worked together
+            to stay on track throughout the project and complete each component of the project in a timely manner.</p>
+        <p>Dummy city:</p>
+        <p><img width="100%" src="assets/img/details/cybercity/layout.jpg" alt=""></p>
+        <p>Spline curves to set the path of the camera as it flies through the city:</p>
         <p><img width="100%" src="assets/img/details/cybercity/ShotCreation2.jpg" alt=""></p>
         <p><img width="100%" src="assets/img/details/cybercity/ShotCreation1.jpg" alt=""></p>
         <p><img width="100%" src="assets/img/details/cybercity/ShotCreation5.jpg" alt=""></p>
-        <p><img width="100%" src="assets/img/details/cybercity/layout.jpg" alt=""></p>
+        <p><img width="100%" src="assets/img/details/cybercity/Image3.jpg" alt=""></p>
      </div>
         <!-- <iframe> </iframe> -->
         <!-- - line: Our group made strategic decisions for the two week span of the project
