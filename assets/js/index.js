@@ -43,7 +43,7 @@ $(document).ready(function(){
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.film, .interactive, .art, .paint').addClass('hide');
+      $('.film, .interactive, .brush, .paint').addClass('hide');
       $('.code').removeClass('hide');
     });
 
@@ -52,7 +52,7 @@ $(document).ready(function(){
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.code, .interactive, .art, .paint').addClass('hide');
+      $('.code, .interactive, .brush, .paint').addClass('hide');
       $('.film').removeClass('hide');
     });
 
@@ -61,25 +61,25 @@ $(document).ready(function(){
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.code, .film, .art, .paint').addClass('hide');
+      $('.code, .film, .brush, .paint').addClass('hide');
       $('.interactive').removeClass('hide');
     });
 
-    // Show art
-    $('.filter-art').on('click', function() {
-      var $this = $(this);
-      $('.filter').removeClass('active');
-      $this.addClass('active');
-      $('.code, .film, .interactive, .paint').addClass('hide');
-      $('.art').removeClass('hide');
-    });
+    // // Show art
+    // $('.filter-art').on('click', function() {
+    //   var $this = $(this);
+    //   $('.filter').removeClass('active');
+    //   $this.addClass('active');
+    //   $('.code, .film, .interactive, .paint').addClass('hide');
+    //   $('.brush').removeClass('hide');
+    // });
 
     // Show paintings
-    $('.filter-paint').on('click', function() {
+    $('.filter-brush').on('click', function() {
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.code, .film, .interactive, .art').addClass('hide');
+      $('.code, .film, .interactive, .brush').addClass('hide');
       $('.paint').removeClass('hide');
     });
 
