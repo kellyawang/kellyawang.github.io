@@ -19,3 +19,17 @@ gem install jekyll bundler
 bundle exec jekyll serve
 ```
 Browse to http://localhost:4000 to access the website.
+
+## Troubleshooting Github
+As of [Aug 13, 2021](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/), Github deprecated username-password authentication to Github for the command line. You should prob set up a Personal Access Token or SSH access instead:
+> For developers, if you are using a password to authenticate Git operations with GitHub.com today, you must begin using a [personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token) over HTTPS (recommended) or SSH key by August 13, 2021, to avoid disruption. 
+
+1. Set up SSH Keys: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys
+
+2. If you get prompted for a username and get the error:
+```
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/kellyawang/kellyawang.github.io.git/'
+```
+you might need to switch the remote from HTTPS to SSH: https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-ssh-to-https
