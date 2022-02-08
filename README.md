@@ -10,9 +10,20 @@ More info on Github Pages [here](https://pages.github.com/)
 ## Get Started
 To get started with this repo, first pull down the repo from Github. Set up an ssh key following this tutorial: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
-You will also need to install some dependencies to develop with Jekyll. Follow the instructions [here](https://jekyllrb.com/docs/installation/macos/)
+You will also need to install some dependencies to develop with Jekyll. Follow the instructions [here](https://jekyllrb.com/docs/installation/macos/), but as part of the prerequisites section, install RVM and install Ruby using RVM.
+
+### To install rvm:
+https://rvm.io/rvm/basics
 
 ## Development
+Ensure you are using the correct version of Ruby by running `rvm use`. Rvm will try to load the Ruby version in the `.ruby-version` file. If you don't have that version installed, rvm will prompt you to install it. More info [here](https://rvm.io/workflow/projects). 
+
+### To install Ruby version required to work with Jekyll using rvm:
+```
+rvm list known
+rvm install 2.5.0
+```
+
 Run the website locally using Jekyll:
 ```
 gem install jekyll bundler
