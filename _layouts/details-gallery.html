@@ -1,0 +1,42 @@
+---
+layout: default
+title: Kelly Wang Portfolio Website
+---
+<!-- wrapperId maybe not needed -->
+<div id="detailsWrapper">
+    <div class="page-title-margin-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="descriptionWrapper">
+                <div class="col-sm-4 col-md-2">
+                    <!-- <div class="list-buffer-top"></div> -->
+                    <div class="Gallery-Sidebar">
+                        <h2>{{ page.workTitle }}</h2>
+                        {% for detail in page.workDetails %}
+                        <h4>{{ detail.label }}</h4>
+                        <p>{{ detail.data }}</p>
+                        {% endfor %}
+                        {% for detail in page.extraInfo %}
+                        <p>{{ detail.info }}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-10" id="project-details-desc">
+                    <div class="galleryGridWrap">
+                        <h2> <!-- placeholder header spacing --> </h2>
+                        <!-- TODO: gallery view maybe -->
+                        <!-- {% for item in page.galleryItems %}
+                        <div class="col-xs-6 col-sm-4 col-md-2">
+                            <p>{{ item.test }}</p>
+                            <a href="#" class="thumbnail">
+                                <img src="assets/img/details/birds/gallery/placeholder.jpg" alt="...">
+                            </a>
+                        </div>
+                        {% endfor %} -->
+                    </div>
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
