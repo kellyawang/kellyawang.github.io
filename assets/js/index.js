@@ -43,7 +43,7 @@ $(document).ready(function(){
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.film, .interactive, .brush, .paint').addClass('hide');
+      $('.film, .interactive, .paint').addClass('hide');
       $('.code').removeClass('hide');
     });
 
@@ -52,7 +52,7 @@ $(document).ready(function(){
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.code, .interactive, .brush, .paint').addClass('hide');
+      $('.code, .interactive, .paint').addClass('hide');
       $('.film').removeClass('hide');
     });
 
@@ -61,17 +61,17 @@ $(document).ready(function(){
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.code, .film, .brush, .paint').addClass('hide');
+      $('.code, .film, .paint').addClass('hide');
       $('.interactive').removeClass('hide');
     });
 
     // Show paintings
-    $('.filter-brush').on('click', function() {
+    $('.filter-paint').on('click', function() {
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
       $('.code, .film, .interactive').addClass('hide');
-      $('.brush').removeClass('hide');
+      $('.paint').removeClass('hide');
     });
 
     // Animations for portfolio thumbnails using Animate.css (animate-custom.css) library
