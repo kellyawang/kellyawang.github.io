@@ -65,22 +65,13 @@ $(document).ready(function(){
       $('.interactive').removeClass('hide');
     });
 
-    // // Show art
-    // $('.filter-art').on('click', function() {
-    //   var $this = $(this);
-    //   $('.filter').removeClass('active');
-    //   $this.addClass('active');
-    //   $('.code, .film, .interactive, .paint').addClass('hide');
-    //   $('.brush').removeClass('hide');
-    // });
-
     // Show paintings
     $('.filter-brush').on('click', function() {
       var $this = $(this);
       $('.filter').removeClass('active');
       $this.addClass('active');
-      $('.code, .film, .interactive, .brush').addClass('hide');
-      $('.paint').removeClass('hide');
+      $('.code, .film, .interactive').addClass('hide');
+      $('.brush').removeClass('hide');
     });
 
     // Animations for portfolio thumbnails using Animate.css (animate-custom.css) library
