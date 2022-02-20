@@ -3,11 +3,9 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 sass:
   style: compressed
-include:
-  - _projects
-defaults:
-  - scope:
-      path: "_projects"
-      # type: "projects"
-    values:
-      permalink: /:basename/project # make URL of pages in the folder _projects as on the root.
+
+# https://jekyllrb.com/docs/collections/
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name # https://jekyllrb.com/docs/permalinks/#collections
