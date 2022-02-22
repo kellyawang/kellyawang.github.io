@@ -3,3 +3,9 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 sass:
   style: compressed
+
+# https://jekyllrb.com/docs/collections/
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path # https://jekyllrb.com/docs/permalinks/#collections

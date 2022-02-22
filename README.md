@@ -10,6 +10,13 @@ More info on Github Pages [here](https://pages.github.com/)
 ## Get Started
 To get started with this repo, first pull down the repo from Github. Set up an ssh key following this tutorial: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+Next, pull down the repo from Github. Since this repo contains a subrepo, be sure to clone submodules as well. https://github.blog/2016-02-01-working-with-submodules/
+```
+git clone --recurse-submodules <website github url>
+```
+
+Note: in case the submodule changes, use this to pull down remote changes from the master branch: `git submodule update --remote` ([source](https://git-scm.com/book/en/v2/Git-Tools-Submodules))
+
 You will also need to install some dependencies to develop with Jekyll. Follow the instructions [here](https://jekyllrb.com/docs/installation/macos/), but as part of the prerequisites section, install RVM and install Ruby using RVM.
 
 ### To install rvm:
@@ -44,3 +51,11 @@ remote: Please see https://github.blog/2020-12-15-token-authentication-requireme
 fatal: Authentication failed for 'https://github.com/kellyawang/kellyawang.github.io.git/'
 ```
 you might need to switch the remote from HTTPS to SSH: https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-ssh-to-https
+
+## One-time setup steps that were performed for initializing this repo
+**2/20/22**
+https://git-scm.com/book/en/v2/Git-Tools-Submodules
+```
+$ cd kellyawang.github.io/_projects/bitsoffood/
+$ git submodule add git@github.com:jessupjs/bits-of-food.git
+```
