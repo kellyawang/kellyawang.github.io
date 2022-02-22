@@ -8,4 +8,4 @@ sass:
 collections:
   projects:
     output: true
-    permalink: /projects/:name # https://jekyllrb.com/docs/permalinks/#collections
+    permalink: /projects/:path # https://jekyllrb.com/docs/permalinks/#collections
