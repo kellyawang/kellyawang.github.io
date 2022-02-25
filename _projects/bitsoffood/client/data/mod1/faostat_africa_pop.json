@@ -1,0 +1,978 @@
+[
+    {
+        "domain": "Annual population",
+        "countryCode": "5100",
+        "country": "Africa",
+        "years": [
+            {
+                "year": "1963",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "304683.413",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "151637.535",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "153045.884",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "246212.023",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "60560.089"
+                    }
+                ]
+            },
+            {
+                "year": "1964",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "312291.934",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "155426.036",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "156865.862",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "251125.18",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "63366.211"
+                    }
+                ]
+            },
+            {
+                "year": "1965",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "320147.257",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "159347.724",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "160799.571",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "256122.057",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "66348.577"
+                    }
+                ]
+            },
+            {
+                "year": "1966",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "328256.522",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "163408.298",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "164848.22",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "261308.402",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "69412.005"
+                    }
+                ]
+            },
+            {
+                "year": "1967",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "336630.998",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "167610.982",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "169019.995",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "266744.159",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "72503.719"
+                    }
+                ]
+            },
+            {
+                "year": "1968",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "345280.027",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "171956.71",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "173323.315",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "272305.004",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "75744.877"
+                    }
+                ]
+            },
+            {
+                "year": "1969",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "354214.422",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "176444.95",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "177769.449",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "277979.972",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "79139.822"
+                    }
+                ]
+            },
+            {
+                "year": "1970",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "363447.518",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "181078.481",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "182369.112",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "283821.559",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "82637.37"
+                    }
+                ]
+            },
+            {
+                "year": "1971",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "372983.108",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "185856.94",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "187126.245",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "289695.853",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "86371.404"
+                    }
+                ]
+            },
+            {
+                "year": "1972",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "382837.384",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "190789.973",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "192047.374",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "295648.76",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "90316.401"
+                    }
+                ]
+            },
+            {
+                "year": "1973",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "393044.091",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "195898.003",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "197146.104",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "301765.084",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "94433.791"
+                    }
+                ]
+            },
+            {
+                "year": "1974",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "403645.795",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "201206.927",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "202438.772",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "308132.005",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "98696.201"
+                    }
+                ]
+            },
+            {
+                "year": "1975",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "414674.688",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "206736.229",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "207938.447",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "314699.085",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "103198.989"
+                    }
+                ]
+            },
+            {
+                "year": "1976",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "426144.378",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "212494.03",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "213650.351",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "321466.49",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "107958.271"
+                    }
+                ]
+            },
+            {
+                "year": "1977",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "438054.733",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "218477.826",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "219576.9",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "328531.101",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "112873.078"
+                    }
+                ]
+            },
+            {
+                "year": "1978",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "450403.808",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "224681.005",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "225722.825",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "335780.696",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "118054.096"
+                    }
+                ]
+            },
+            {
+                "year": "1979",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "463183.536",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "231091.554",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "232091.958",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "343446.12",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "123261.211"
+                    }
+                ]
+            },
+            {
+                "year": "1980",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "476386.273",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "237700.047",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "238686.178",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "351396.255",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "128615.954"
+                    }
+                ]
+            },
+            {
+                "year": "1981",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "490003.891",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "244500.154",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "245503.728",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "359345.496",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "134402.203"
+                    }
+                ]
+            },
+            {
+                "year": "1982",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "504034.199",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "251492.736",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "252541.416",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "367455.147",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "140455.318"
+                    }
+                ]
+            },
+            {
+                "year": "1983",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "518479.753",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "258683.344",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "259796.404",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "375657.465",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "146828.085"
+                    }
+                ]
+            },
+            {
+                "year": "1984",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "533345.172",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "266080.185",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "267264.96",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "383870.5",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "153583.203"
+                    }
+                ]
+            },
+            {
+                "year": "1985",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "548626.148",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "273685.814",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "274940.326",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "392074.281",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "160721.947"
+                    }
+                ]
+            },
+            {
+                "year": "1986",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "564327.26",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "281503.621",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "282823.675",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "400323.945",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "168181.666"
+                    }
+                ]
+            },
+            {
+                "year": "1987",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "580424.361",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "289520.176",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "290904.115",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "408745.26",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "175823.926"
+                    }
+                ]
+            },
+            {
+                "year": "1988",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "596849",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "297700.225",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "299148.782",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "417292.645",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "183664.056"
+                    }
+                ]
+            },
+            {
+                "year": "1989",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "613512.11",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "305997.074",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "307515.034",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "425918.352",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "191713.66"
+                    }
+                ]
+            },
+            {
+                "year": "1990",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "630349.639",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "314377.324",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "315972.361",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "434455.748",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "200111.296"
+                    }
+                ]
+            },
+            {
+                "year": "1991",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "647343.997",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "322832.733",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "324511.308",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "443448.765",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "208314.341"
+                    }
+                ]
+            },
+            {
+                "year": "1992",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "664512.055",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "331372.563",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "333139.471",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "452539.494",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "216681.848"
+                    }
+                ]
+            },
+            {
+                "year": "1993",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "681869.283",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "340003.907",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "341865.426",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "461737.856",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "225179.006"
+                    }
+                ]
+            },
+            {
+                "year": "1994",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "699445.343",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "348740.693",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "350704.72",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "471280.709",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "233540.09"
+                    }
+                ]
+            },
+            {
+                "year": "1995",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "717270.078",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "357597.604",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "359672.508",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "481097.777",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "241824.184"
+                    }
+                ]
+            },
+            {
+                "year": "1996",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "735361.115",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "366582.921",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "368778.186",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "491037.15",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "250183.369"
+                    }
+                ]
+            },
+            {
+                "year": "1997",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "753737.61",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "375707.652",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "378029.932",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "500955.548",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "258797.241"
+                    }
+                ]
+            },
+            {
+                "year": "1998",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "772437.113",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "384994.564",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "387442.598",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "511006.395",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "267585.841"
+                    }
+                ]
+            },
+            {
+                "year": "1999",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "791504.166",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "394470.824",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "397033.34",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "521202.265",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "276633.762"
+                    }
+                ]
+            },
+            {
+                "year": "2000",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "810984.226",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "404163.048",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "406821.184",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "531568.392",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "285997.612"
+                    }
+                ]
+            },
+            {
+                "year": "2001",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "830902.585",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "414086.313",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "416816.226",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "541691.634",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "296129.294"
+                    }
+                ]
+            },
+            {
+                "year": "2002",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "851298.405",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "424259.65",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "427038.787",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "551920.837",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "306701.76"
+                    }
+                ]
+            },
+            {
+                "year": "2003",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "872248.381",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "434718.472",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "437529.865",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "562342.819",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "317674.047"
+                    }
+                ]
+            },
+            {
+                "year": "2004",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "893842.821",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "445503.481",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "448339.305",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "572973.496",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "329075.105"
+                    }
+                ]
+            },
+            {
+                "year": "2005",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "916154.288",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "456648.127",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "459506.158",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "583724.116",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "341033.592"
+                    }
+                ]
+            },
+            {
+                "year": "2006",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "939210.02",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "468164.354",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "471045.695",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "594752.633",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "353403.533"
+                    }
+                ]
+            },
+            {
+                "year": "2007",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "963021.802",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "480060.381",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "482961.456",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "606408.989",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "365856.972"
+                    }
+                ]
+            },
+            {
+                "year": "2008",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "987623.496",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "492359.583",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "495263.937",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "617656.517",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "379488.153"
+                    }
+                ]
+            },
+            {
+                "year": "2009",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "1013045.754",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "505085.799",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "507959.926",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "629149.675",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "393708.979"
+                    }
+                ]
+            },
+            {
+                "year": "2010",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "1039304.033",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "518252.648",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "521051.382",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "640859.299",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "408587.045"
+                    }
+                ]
+            },
+            {
+                "year": "2011",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "1066409.7",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "531867.833",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "534541.879",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "652803.773",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "424130.04"
+                    }
+                ]
+            },
+            {
+                "year": "2012",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "1094343.067",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "545918.311",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "548424.718",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "665140.073",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "440145.195"
+                    }
+                ]
+            },
+            {
+                "year": "2013",
+                "items": [
+                    {
+                        "itemCode": "3010",
+                        "item": "Population - Est. & Proj.",
+                        "Total Population - Both sexes_unit": "1000 persons",
+                        "Total Population - Both sexes": "1123045.081",
+                        "Total Population - Male_unit": "1000 persons",
+                        "Total Population - Male": "560368.999",
+                        "Total Population - Female_unit": "1000 persons",
+                        "Total Population - Female": "562676.138",
+                        "Rural population_unit": "1000 persons",
+                        "Rural population": "677663.811",
+                        "Urban population_unit": "1000 persons",
+                        "Urban population": "456734.381"
+                    }
+                ]
+            }
+        ]
+    }
+]

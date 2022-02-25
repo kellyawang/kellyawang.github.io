@@ -1,0 +1,770 @@
+
+/* whiteRoboto */
+.whiteRoboto {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.88rem;
+    letter-spacing: 0.1rem;
+    line-height: 180%;
+}
+
+/* color */
+.population_underline {
+    border-bottom: 4px solid rgb(235,14,68);
+}
+
+.foodProduction_underline {
+    border-bottom: 4px solid rgb(114,191,0);
+}
+
+.tradeValue_underline {
+    border-bottom: 4px solid rgb(111,111,196);
+}
+
+.emissions_underline {
+    border-bottom: 4px solid rgb(250,92,0);
+}
+
+/* blackBlock */
+.blackBlock {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    flex-flow: column nowrap;
+    height: 70%;
+    justify-content: flex-start;
+    position: absolute;
+    width: 33.33vw;
+}
+
+/* `````````````````````````````````\```````````````````````\
+                                    |        Header         |
+ ``````````````````````````````````/``````````````````````*/
+header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    height: 6vh;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+
+/* `````````````````````````````````\```````````````````````\
+                                    |        Ground         |
+ ``````````````````````````````````/``````````````````````*/
+
+/* ground */
+#ground {
+    height: 100vh;
+    min-height: 712px;
+    position: fixed;
+    width: 100vw;
+}
+
+/* frame */
+.frame {
+    align-items: flex-start;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+}
+
+/* powerImg */
+.powerImg {
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 2.5%;
+    position: relative;
+    width: 100%;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Frame 1 */
+
+#powerImg1 {
+    transform: translateZ(0); /* to GPU */
+    will-change: opacity, visibility;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Frame 2 */
+
+#frame2 {
+    background-color: rgba(255, 255, 255, 1);
+    pointer-events: unset;
+}
+
+/* half */
+.half {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 50%;
+}
+
+.half.left-aligned {
+    /*justify-content: inside;*/
+    left: 0px;
+    transform: translateZ(0); /* to GPU */
+}
+
+.half.right-aligned {
+    /*justify-content: inside;*/
+    right: 0px;
+    transform: translateZ(0); /* to GPU */
+}
+
+#leftHalf {
+    background: rgba(0, 0, 0, 1) url('../assets/cocoa_pods.jpg') 0 50% / cover no-repeat;
+    /*justify-content: inside;*/
+    left: -50%;
+    transform: translateZ(0); /* to GPU */
+}
+
+#rightHalf  {
+    /*justify-content: inside;*/
+    right: -50%;
+}
+
+/* abstractBlock */
+#abstractBlock {
+    background-color: rgba(0, 0, 0, 1);
+    justify-content: center;
+    padding: 0 6.5%;
+}
+
+#abstractBlock p {
+    padding: 0 0 5% 0;
+}
+
+#abstractBlock span {
+    padding: 0 0 1% 0;
+}
+
+/* structureBox */
+#structureBox {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 0 0 0;
+    width: 75%;
+}
+
+.structureLink {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 2% 0;
+    width: 100%;
+
+    color: rgb(0, 0, 0);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 300;
+    font-variant: small-caps;
+    letter-spacing: 0.125rem;
+}
+
+.structureLink h1 {
+    color: rgb(198, 88, 68);
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.structureLink.lesserLink {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    font-variant: unset;
+    font-weight: 300;
+}
+
+.structureLink.lesserLink h1 {
+    color: rgb(0, 0, 0);
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+.subLink {
+    padding: 0.5% 4%;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 100;
+    font-style: normal;
+    font-variant: unset;
+}
+
+.subLink h1 {
+    color: rgb(0, 0, 0);
+    font-size: 0.85rem;
+    font-weight: 100;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Frame 3 */
+
+#frame3 {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#bkgdImg3 {
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 50%;
+    width: 100%;
+}
+
+/* `````````````````````````````````\```````````````````````\
+                                    |        Slides         |
+ ``````````````````````````````````/``````````````````````*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Shared Slide Styles */
+
+/* slide */
+.slide {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    min-height: 712px;
+}
+
+.opaque {
+    background-color: white;
+}
+
+.row {
+    padding: 10px;
+}
+
+/* splitPage */
+.splitPage {
+    align-items: flex-start;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 50%;
+}
+
+/* articleText */
+.articleText {
+    padding: 10% 13.75%;
+}
+
+.articleText h1 {
+    padding: 0 0 5% 0;
+
+    color: rgb(0, 0, 0);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 300;
+    font-variant: small-caps;
+    letter-spacing: 0.125rem;
+}
+
+.articleText h1 > span {
+    color: rgb(198, 88, 68);
+}
+
+.articleText p {
+    padding: 0 0 2.5% 0;
+
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13.5px;
+    letter-spacing: 0.1rem;
+    line-height: 180%;
+}
+
+/* imgBox */
+.imgBox {
+    height: 90%;
+    width: 90%;
+}
+
+/* descriptionBlock */
+.descriptionBlock {
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+    top: 7.5%;
+}
+
+.descriptionBlockL {
+    left: 4.5%;
+}
+
+.descriptionBlockR {
+    align-items: flex-end;
+    right: 4.5%;
+}
+
+.descriptionAddOn {
+    position: absolute;
+    bottom: 12.5%;
+}
+
+.descriptionAddOnL {
+    left: 4.5%;
+}
+
+.descriptionAddOnR {
+    right: 4.5%;
+}
+
+/* figTitle */
+.figTitle {
+    color: rgb(0, 0, 0);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    font-variant: small-caps;
+    letter-spacing: 0.125rem;
+}
+
+/* figText */
+.figText {
+    width: 17.5vw;
+
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12.5px;
+    letter-spacing: 0.1rem;
+    line-height: 170%;
+}
+
+.figTextNote {
+    font-size: 12.5px;
+    font-style: italic;
+}
+
+.figTextL {
+    padding: 2.5% 0 0 5%;
+}
+
+.figTextR {
+    padding: 2.5% 5% 0 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Slide 1 */
+
+/* slide1 */
+#slide1 {
+    align-items: center;
+    height: 100vh;
+    min-height: 712px;
+    justify-content: center;
+}
+
+/* introBlock */
+#introBlock {
+    right: 5vw;
+}
+
+/* introQuote */
+.proverbQuote {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 35% 0 0 7.5%;
+    position: relative;
+    width: 65%;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.proverbQuote h2 {
+    position: relative;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    font-variant: small-caps;
+    letter-spacing: 0.125rem;
+    line-height: 140%;
+}
+
+.proverbQuote h2 > span {
+    border-bottom: 4px solid rgb(255, 98, 78);
+    padding: 0 0 2px 0;
+}
+
+.proverbQuote h3 {
+    position: absolute;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    font-weight: 300;
+}
+
+.proverbQuote h3:first-of-type {
+    left: -40px;
+    top: -40px;
+}
+
+.proverbQuote h3:last-of-type {
+    bottom: -80px;
+    right: 0;
+}
+
+.proverbCite {
+    margin: 30px 0 0 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Slide 2 */
+
+/* slide2 */
+#slide2 {
+    /*background-color: white;*/
+    align-items: center;
+    height: 100vh;
+    min-height: 712px;
+    pointer-events: none;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Slide 2 */
+
+/* slide2 */
+#slide2B {
+    background-color: white;
+    flex-flow: row nowrap;
+    height: 100vh;
+    min-height: 712px;
+    pointer-events: none;
+}
+
+/* splitImg */
+#splitImg2B {
+    align-items: center;
+    justify-content: center;
+}
+
+/* imgBox */
+#imgBox2B {
+    background: url('../assets/madascar_hills.jpg') 50% 50% / cover no-repeat;
+    transform: translateZ(0); /* to GPU */
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Slide 3 */
+
+#slide3 {
+    align-items: center;
+    background-color: rgba(252, 248, 247, 1);
+    height: 120vh;
+    min-height: 867px;
+    justify-content: center;
+}
+
+/* mainVis */
+#mainVis {
+    margin-top: 15vh;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Slide 4 */
+
+/* splitImg */
+#splitImg4B {
+    align-items: center;
+    justify-content: center;
+}
+
+#imgBox4B {
+    background: url('../assets/trail_walk.jpg') 50% 50% / cover no-repeat;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Slide 5 */
+
+#slide5 {
+    align-items: center;
+    background-color: rgba(252, 248, 247, 1);
+    height: 120vh;
+    min-height: 867px;
+    justify-content: center;
+
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* galleryWall*/
+#galleryWall5 {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* mapVis-extension */
+.mapVis-extension {
+    display: flex;
+    height: 100%;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    position: relative;
+    width: 17.5%;
+}
+
+#mapVis-left-extension {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#mapVis-right-extension {
+    /*padding: 10% 0.5% 0 2.5%;*/
+    padding: 10% 0.5% 0 0%;
+}
+
+#mapVis-right-extension p {
+    width: 100%;
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-style: normal;*/
+    /*font-weight: 300;*/
+    /*font-size: 0.88rem;*/
+
+    font-weight: 300;
+    font-size: 13.5px;
+    letter-spacing: 0.1rem;
+    line-height: 180%;
+}
+
+#mapVis-main {
+}
+
+#choroplethVis {
+    position: relative;
+}
+
+#choroplethArcs {
+    position: absolute;
+}
+
+#legendContainer {
+    position: relative;
+}
+
+#choroplethLegend {
+    position: absolute;
+    /*alignment-baseline: middle;*/
+    /*font-family: sans-serif;*/
+    /*font-size: 11px;*/
+    /*font-weight: lighter;*/
+    /*letter-spacing: 0.1rem;*/
+    alignment-baseline: middle;
+    cursor: default;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    fill: rgba(0, 0, 0, 0.75);
+    letter-spacing: 0.1rem;
+    text-anchor: middle;
+}
+
+#choroplethLegend .legend-title {
+    alignment-baseline: middle;
+    /*font-family: sans-serif;*/
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    text-anchor: middle;
+}
+
+/*********************/
+/*  MAPS SECTION     */
+/*********************/
+option {
+    font-family: 'Roboto', sans-serif;
+}
+
+select {
+    margin-left: 10px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Slide 6 */
+
+/* slide6 */
+#slide6 {
+    background-color: white;
+    flex-flow: row nowrap;
+    height: 100vh;
+    min-height: 712px;
+    pointer-events: none;
+}
+
+/* splitImg */
+#splitImg6 {
+    align-items: center;
+    justify-content: center;
+}
+
+#imgBox6 {
+    background: url('../assets/vinyard_view.jpg') 50% 50% / cover no-repeat;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Slide 7 */
+#slide7 {
+    align-items: center;
+    background-color: rgba(252, 248, 247, 1);
+    height: 120vh;
+    min-height: 867px;
+    justify-content: center;
+}
+
+#figText7 {
+    width: 15vw;
+}
+
+#timeVis {
+    margin-top: 5vh;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Slide 8 */
+
+/* slide8 */
+#slide8 {
+    background-color: white;
+    flex-flow: row nowrap;
+    height: 100vh;
+    min-height: 712px;
+    pointer-events: none;
+}
+
+/* splitImg */
+#splitImg8 {
+    align-items: center;
+    justify-content: center;
+}
+
+#imgBox8 {
+    background: url('../assets/black_beans.jpg') 50% 50% / cover no-repeat;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Slide 9 */
+#slide9 {
+    align-items: center;
+    background-color: rgba(252, 248, 247, 1);
+    height: 120vh;
+    min-height: 867px;
+    justify-content: center;
+}
+
+#securityVis {
+    margin-top: 10vh;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Slide 7 */
+#slide10 {
+    align-items: center;
+    justify-content: center;
+}
+
+#exitBlock {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    flex-flow: column nowrap;
+    height: 50%;
+    justify-content: flex-start;
+    position: absolute;
+    width: 50vw;
+}
+
+#exitQuote {
+    margin: 13.75% 0 0 7.5%;
+}
+
+
+/* slide11 */
+#slide11 {
+    background-color: black;
+    flex-flow: column nowrap;
+    height: unset;
+    min-height: 712px;
+    padding: 5vh 0;
+}
+
+#teamBlock {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 5vh 0;
+    color: white;
+}
+
+#teamBlock h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    font-variant: small-caps;
+    letter-spacing: 0.125rem;
+    padding-bottom: 5vh;
+}
+
+#photoCols {
+    width: 75%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.photoCol {
+    width: 20%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.photoCol img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+#kaitlyn {
+    object-position: 50% 12%;
+}
+#photoCols h4 {
+    padding: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#photoCols p {
+    text-align: center;
+
+}
+#referenceBlock {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+    color: white;
+}
+
+
+#referenceBlock h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    font-variant: small-caps;
+    letter-spacing: 0.125rem;
+}
+
+#referenceBlock a {
+    padding: 0 0;
+    margin: 0.5vh 0;
+    /*border-bottom: 3px solid #72bf00;*/
+    color: #79cfff;
+    font-weight: 300;
+}

@@ -1,0 +1,570 @@
+[
+  {
+    "domain": "Agriculture Total",
+    "countryCode": "5100",
+    "country": "Africa",
+    "years": [
+      {
+        "year": "1963",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "241883.7194"
+          }
+        ]
+      },
+      {
+        "year": "1964",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "248689.6523"
+          }
+        ]
+      },
+      {
+        "year": "1965",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "255912.4287"
+          }
+        ]
+      },
+      {
+        "year": "1966",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "260325.9482"
+          }
+        ]
+      },
+      {
+        "year": "1967",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "270080.4136"
+          }
+        ]
+      },
+      {
+        "year": "1968",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "278288.406"
+          }
+        ]
+      },
+      {
+        "year": "1969",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "284094.1318"
+          }
+        ]
+      },
+      {
+        "year": "1970",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "289062.6459"
+          }
+        ]
+      },
+      {
+        "year": "1971",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "293824.0031"
+          }
+        ]
+      },
+      {
+        "year": "1972",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "295462.9448"
+          }
+        ]
+      },
+      {
+        "year": "1973",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "295652.0408"
+          }
+        ]
+      },
+      {
+        "year": "1974",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "298006.7114"
+          }
+        ]
+      },
+      {
+        "year": "1975",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "305444.1486"
+          }
+        ]
+      },
+      {
+        "year": "1976",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "309786.1273"
+          }
+        ]
+      },
+      {
+        "year": "1977",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "317357.0238"
+          }
+        ]
+      },
+      {
+        "year": "1978",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "327186.1649"
+          }
+        ]
+      },
+      {
+        "year": "1979",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "335482.349"
+          }
+        ]
+      },
+      {
+        "year": "1980",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "341249.8161"
+          }
+        ]
+      },
+      {
+        "year": "1981",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "346602.823"
+          }
+        ]
+      },
+      {
+        "year": "1982",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "353348.4395"
+          }
+        ]
+      },
+      {
+        "year": "1983",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "355157.9161"
+          }
+        ]
+      },
+      {
+        "year": "1984",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "348713.0112"
+          }
+        ]
+      },
+      {
+        "year": "1985",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "355012.5702"
+          }
+        ]
+      },
+      {
+        "year": "1986",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "362425.2446"
+          }
+        ]
+      },
+      {
+        "year": "1987",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "363151.1709"
+          }
+        ]
+      },
+      {
+        "year": "1988",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "372632.1973"
+          }
+        ]
+      },
+      {
+        "year": "1989",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "384838.3799"
+          }
+        ]
+      },
+      {
+        "year": "1990",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "591313.5126"
+          }
+        ]
+      },
+      {
+        "year": "1991",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "593519.8895"
+          }
+        ]
+      },
+      {
+        "year": "1992",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "600299.2892"
+          }
+        ]
+      },
+      {
+        "year": "1993",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "600732.482"
+          }
+        ]
+      },
+      {
+        "year": "1994",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "607993.4377"
+          }
+        ]
+      },
+      {
+        "year": "1995",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "616921.7282"
+          }
+        ]
+      },
+      {
+        "year": "1996",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "605339.67"
+          }
+        ]
+      },
+      {
+        "year": "1997",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "612777.3853"
+          }
+        ]
+      },
+      {
+        "year": "1998",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "646788.289"
+          }
+        ]
+      },
+      {
+        "year": "1999",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "647219.737"
+          }
+        ]
+      },
+      {
+        "year": "2000",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "656179.9854"
+          }
+        ]
+      },
+      {
+        "year": "2001",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "681036.5662"
+          }
+        ]
+      },
+      {
+        "year": "2002",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "710409.014"
+          }
+        ]
+      },
+      {
+        "year": "2003",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "731017.1239"
+          }
+        ]
+      },
+      {
+        "year": "2004",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "726933.8497"
+          }
+        ]
+      },
+      {
+        "year": "2005",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "768324.3856"
+          }
+        ]
+      },
+      {
+        "year": "2006",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "748797.7949"
+          }
+        ]
+      },
+      {
+        "year": "2007",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "786779.1808"
+          }
+        ]
+      },
+      {
+        "year": "2008",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "810052.0206"
+          }
+        ]
+      },
+      {
+        "year": "2009",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "790949.0416"
+          }
+        ]
+      },
+      {
+        "year": "2010",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "834309.5356"
+          }
+        ]
+      },
+      {
+        "year": "2011",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "851180.5528"
+          }
+        ]
+      },
+      {
+        "year": "2012",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "849069.1667"
+          }
+        ]
+      },
+      {
+        "year": "2013",
+        "items": [
+          {
+            "itemCode": "1711",
+            "item": "Agriculture total",
+            "Emissions (CO2eq)_unit": "gigagrams",
+            "Emissions (CO2eq)": "853621.2194"
+          }
+        ]
+      }
+    ]
+  }
+]

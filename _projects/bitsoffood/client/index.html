@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/mod1.css" rel="stylesheet">
+    <link href="css/mod3.css" rel="stylesheet">
+    <link href="css/mod4.css" rel="stylesheet">
+    <link href="css/mod4ext.css" rel="stylesheet">
+    <link href="css/choropleth.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i&display=swap"
+          rel="stylesheet">
+
+    <title>cs171. bits of food</title>
+
+</head>
+<body>
+<header>
+
+</header>
+<main>
+    <div id="ground">
+        <div id="frame3" class="frame">
+            <img id="bkgdImg3" src="assets/moroccan_dishes.jpg" alt="Moroccan Dishes">
+        </div>
+        <div id="frame2" class="frame">
+            <div id="leftHalf" class="half">
+                <section id="abstractBlock" class="blackBlock">
+                    <p class="whiteRoboto">This data-driven editorial takes on the task of visualizing Africa's bits of
+                        food across four connected domains:
+                        <span class="population_underline">population</span>,
+                        <span class="foodProduction_underline">food production</span>,
+                        <span class="tradeValue_underline">trade value</span>, and
+                        <span class="emissions_underline">agricultural emissions</span>.
+                    </p>
+                    <p class="whiteRoboto">Using data made available by the UN's Food and Agriculture (FAO) data portal,
+                        we consider Africa's general position in the global scope and offer more detailed
+                        country-specific views.</p>
+                    <p class="whiteRoboto">Naturally examination of the past and present invites prediction tools;
+                        likewise comparative elements welcome organizational structures. We offer visual models for
+                        both, as well as a review of opportunities for fuller understanding.</p>
+                </section>
+            </div>
+            <div id="rightHalf" class="half">
+                <nav id="structureBox">
+                    <a class="structureLink">
+                        1.
+                        <h1>Zooming In On Africa</h1>
+                    </a>
+                    <a class="structureLink">
+                        2.
+                        <h1>Africa Is Not A Country</h1>
+                    </a>
+                    <a class="structureLink">
+                        3.
+                        <h1>Uneven Playing Ground</h1>
+                    </a>
+                    <a class="structureLink">
+                        4.
+                        <h1>Not Enough?</h1>
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <div id="frame1" class="frame">
+            <img id="powerImg1" class="powerImg" src="assets/hot_peppers.jpg" alt="Emmanuel Obuobi for PICHA">
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <div id="slide1" class="slide">
+        <section id="introBlock" class="blackBlock">
+            <div id="introQuote" class="proverbQuote">
+                <h3>&#8220;</h3>
+                <h2>The Man Who Counts the <span>Bits of Food</span> He Swallows Is Never Satisfied.</h2>
+                <h3>&#8221;</h3>
+            </div>
+            <cite id="introCite" class="proverbCite whiteRoboto">Proverb, Africa</cite>
+        </section>
+    </div>
+
+    <!-- ---------------------------------------------------------------------------- Filler slide for scroll effect -->
+    <div id="slide2" class="slide">
+    </div>
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <div id="slide2B" class="slide">
+        <div id="splitText2B" class="splitPage">
+            <div id="articleText2B" class="articleText">
+                <h1>1. <span>Zooming In On Africa</span></h1>
+                <p>
+                    While domain experts debate the earth's carrying capacity, human presence continues to multiply. The
+                    population growth rate has slowed globally, but Africa maintains a steady pace: from 1963 to 2013
+                    the continent inflated its share of the world's population from 9.5% to 15.6%.
+                </p>
+                <p>
+                    That 'bigger stake' has not translated into a flourishing food production industry. Africa has
+                    improved its food balance sheets, though not in proportion to its human needs. Export trade value
+                    has remarkably declined over the fifty year period as many countries deal with political instability
+                    and extreme climate variability. Even so, livestock and agricultural products remain one of the most
+                    promising sectors for traditionally agrarian economies.
+                </p>
+                <p>
+                    Environmental concerns should register as a primary alarm in Africa. Since 1963 emissions related to
+                    fertilization and cultivation have doubled. Other related indicators should also be considered in
+                    future study, including land use, livestock husbandry, pesticide application, industrial processes
+                    and waste.
+                </p>
+
+            </div>
+        </div>
+        <div id="splitImg2B" class="splitPage">
+            <div id="imgBox2B" class="imgBox"></div>
+        </div>
+    </div>
+    <!-- Mod1 visualization ------------------------------------------------------------------------------------------->
+    <div id="slide3" class="slide">
+        <div id="descriptionBlock3" class="descriptionBlock descriptionBlockL">
+            <h1 id="figTitle3" class="figTitle">Fig 1. Africa / World =</h1>
+            <p id="figText3" class="figText figTextL">
+                To better understand Africa's position in the world, this visualization allows toggle viewing from two
+                angles: aggregate total ('#') and percent change ('%').
+                <br><br>
+                The center composition offers a high-level view of the trends from 1963 to 2013 - the year labels serve
+                as handles to control the modular legend data.
+                <br><br>
+                Legend results are ordered hierarchically with more granular detail, including calculations that compare
+                Africa to the world over time.
+            </p>
+        </div>
+        <div id="mainVis"></div>
+    </div>
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <div id="slide4" class="slide opaque article">
+        <div id="slide4B" class="slide">
+            <div id="splitImg4B" class="splitPage">
+                <div id="imgBox4B" class="imgBox"></div>
+            </div>
+            <div id="splitText4" class="splitPage">
+                <div class="articleText articleText2">
+                    <h1>2. <span>Africa Is Not A Country</span></h1>
+                    <p>
+                        Defining Africa as a single unit is an often made, misleading over-simplification. It is a
+                        continent, composed of a collection of countries with at least as many differences as
+                        similarities. The 20th Century was a liberating period for many nations as colonial bindings
+                        were persistently broken. In this context it especially important to consider historical and
+                        cultural factors before making hasty conclusions from numerical outcomes.
+                    </p>
+                    <p>
+                        Regrettably the scope of this study does not include such germane analyses but instead offers
+                        the opportunity to discern features of a nation's food economy that might lead to useful
+                        comparative and critical leads and insights. For example, to rebalance unnecessary dependencies
+                        on import products or to discover new, promising opportunities for export products, leaders in
+                        the sector should evaluate not only their portfolio but also the results of neighbors that share
+                        similar biotopes and markets.
+                    </p>
+                    <p>
+                        For further study it may helpful to define past and present political and trade relationships
+                        that might point to serve as platforms for improved efficiencies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Map Visualization -------------------------------------------------------------------------------------------->
+    <div id="slide5" class="slide">
+        <div id="descriptionBlock5" class="descriptionBlock">
+            <h1 id="figTitle5" class="figTitle">Fig 2. A Country-Specific View of Trends over 50 Years for each Domain</h1>
+        </div>
+        <div id="galleryWall5" class="galleryWall">
+            <div id="mapVis-left-extension" class="mapVis-extension">
+                <div id="areaVis"></div>
+            </div>
+            <div id="mapVis-main">
+                <div id="choroplethVis"></div>
+            </div>
+            <div id="mapVis-right-extension" class="mapVis-extension">
+<!--                <p> <b>How do different countries compare in trade value, food production, population growth, and emissions?</b>-->
+<!--                </p>-->
+                <p>For each domain, we show a breakdown of the high level data into more detailed components.
+                        (e.g. Tonnes of Cassava produced by each country, or Africa as a whole).
+                    </p>
+<!--                </div>-->
+                <p><b>The shading on the map shows the relative contribution of each country in 2013.</b>
+                    The timeline to the left shows change over time.
+                </p>
+                <form class="form-inline">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <br>
+                            <select class="form-control" id="choroplethSelect" onchange="updateDomainSelection()">
+                                <option value="Food Balance Sheets">Food Production</option>
+                                <option value="Agriculture Total">Emissions</option>
+                                <option value="Annual population">Population</option>
+                                <option value="Crops and livestock products">Agricultural Export Value</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+                <div id="legendContainer">
+                    <div id="choroplethLegend"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Visualization -------------------------------------------------------------------------------------------->
+    <div id="slide6" class="slide">
+        <div id="splitText6" class="splitPage">
+            <div class="articleText articleText2">
+                <h1>3. <span>Uneven Playing Ground</span></h1>
+                <p>
+                    In a world of even distribution, a country with X% of the world's population should be responsible
+                    for X% of the world's food production, trade value and emissions. Of course such a point-of-view is
+                    both naïve and quixotic, and yet some standard must be offered as a basis for comparison.
+                </p>
+                <p>
+                    When represented graphically, the shape of each African country takes on a distinct shape in
+                    comparison to population-defined standards for Africa and the world. Even so most countries fall
+                    noticeably short of food production and trade value prescriptions, which is problematic for health
+                    and economy.
+                <p>
+                    If a primitive linear predictive model based on the past 50 years is applied, these gaps will
+                    continue to widen. The UN, African Union and other organizations have composed goals to resolve
+                    these imbalances, not for the first time. To produce meaningful change, public and private
+                    stakeholders need to demonstrate similar conviction and commitment.
+                </p>
+            </div>
+        </div>
+        <div id="splitImg6" class="splitPage">
+            <div id="imgBox6" class="imgBox"></div>
+        </div>
+    </div>
+    <!-- Radar visualization ------------------------------------------------------------------------------------------>
+    <div id="slide7" class="slide">
+        <div id="descriptionBlock7" class="descriptionBlock descriptionBlockL">
+            <h1 id="figTitle7" class="figTitle">Fig 3. Venn Comparisons</h1>
+            <p id="figText7" class="figText figTextL">
+                Multi-variable comparison a selected country to Africa and the world by positioning each
+                variable directionally on the x-y axis according to the country's percent population - a factor that is
+                applied to
+                food production, trade value and emissions.
+                <br><br>
+                Comparisons are dependent on country and year - the year options extend to 2063 using a simple
+                linear formula based on trends from 1963-2013.
+            </p>
+        </div>
+        <div id="descriptionAddOn7" class="descriptionAddOn descriptionAddOnL">
+            <p id="figText7a" class="figText figTextL figTextNote">
+                N.b. Previews appear on mouseover, including numerical summaries of
+                each manufactured shape. Selections can
+                be fixed / unfixed on click.</p>
+        </div>
+        <div id="timeVis"></div>
+    </div>
+    <!-- Chapter 4 ---------------------------------------------------------------------------------------------------->
+    <div id="slide8" class="slide">
+        <div id="splitImg8" class="splitPage">
+            <div id="imgBox8" class="imgBox"></div>
+        </div>
+        <div id="splitText8" class="splitPage">
+            <div class="articleText articleText2">
+                <h1>4. <span>Not Enough?</span></h1>
+                <p>
+                    Unsurprisingly the abstract nature of quantitative evaluation evades emotion and empathy. However
+                    the imbalance these number represent grim consequences for millions of people throughout the
+                    continent who do not have sufficient access to food resources. As of 2013, more than 200 million
+                    people in Africa are undernourished, and the UN's findings indicate that this figure is only
+                    increasing year-by-year.
+                </p>
+                <p>
+                    The FOA began monitoring food security after establishing "Zero Hunger" as a core sustainable
+                    development goal at the beginning of the 21st century. The issue is complex - in recent years,
+                    indicators have expanded to include an array of factors related to availability, access, stability
+                    and utilization, as well as other social issues, including gender, family size and structure and
+                    education.
+                </p>
+                <p>
+                    Surprisingly the food balance sheets for countries with considerable food security issues indicate
+                    that there is often sufficient production to meet the caloric needs, and so closer audit of food
+                    management is in order.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Bubble visualization ----------------------------------------------------------------------------------------->
+    <div id="slide9" class="slide">
+        <div id="descriptionBlock9" class="descriptionBlock descriptionBlockR">
+            <h1 id="figTitle9" class="figTitle">Fig 4. Malnourishment & Food Supply, 2013</h1>
+            <p id="figText9" class="figText figTextR">
+                Undernourishment results are organized center-out in the main module by continent, region and country. The results of a selection can be compared to the reported available food supply.
+            </p>
+        </div>
+        <div id="descriptionAddOn9" class="descriptionAddOn descriptionAddOnR">
+            <p id="figText9a" class="figText figTextR figTextNote">
+                N.b. Regions can be expanded on click.
+            </p>
+        </div>
+        <div id="securityVis"></div>
+    </div>
+    <div id="slide10" class="slide">
+        <div id="exitBlock">
+            <div id="exitQuote" class="proverbQuote">
+                <h3>&#8220;</h3>
+                <h2>Knowledge is like a garden; if it is not cultivated, it cannot be harvested.</h2>
+                <h3>&#8221;</h3>
+            </div>
+            <cite id="exitCite" class="proverbCite whiteRoboto">Proverb, Africa</cite>
+        </div>
+    </div>
+    <div id="slide11" class="slide">
+        <div id="teamBlock">
+            <h3>Our Team</h3>
+            <div id="photoCols">
+                <div class="photoCol">
+                    <img src="assets/jared.JPG">
+                    <h4 class="whiteRoboto">Jared Jessup</h4>
+                    <p class="whiteRoboto">Jared Jessup is a freelance web developer who works on diverse projects
+                        related to African countries. He is passionate about enabling technologies for information design.</p>
+                </div>
+                <div class="photoCol">
+                    <img src="assets/kelly.jpg">
+                    <h4 class="whiteRoboto">Kelly Wang</h4>
+                    <p class="whiteRoboto">Kelly Wang is a software engineer at a health tech company in Boston. Her background is in
+                        Computer Science and Fine Art, and she is always excited about unexpected intersections between technology and art.</p>
+                </div>
+                <div class="photoCol">
+                    <img id="kaitlyn" src="assets/kaitlyn.png">
+                    <h4 class="whiteRoboto">Kaitlyn Germain</h4>
+                    <p class="whiteRoboto">Kaitlyn Germain is a Scientist at a molecular insights biotechnology company in Cambridge.
+                        Her background is in biotechnology and forensic science. She is currently pursuing a graduate degree in Data Science.</p>
+                </div>
+                <div class="photoCol">
+                    <img src="assets/minnie.jpg">
+                    <h4 class="whiteRoboto">Minnie Cui</h4>
+                    <p class="whiteRoboto">Minnie (Yuefeng) Cui is a data analytics manager at an industrial supply
+                        company in Chicago. Her background is in finance and operations research.</p>
+                </div>
+            </div>
+        </div>
+        <div id="">
+        </div>
+        <div id="referenceBlock">
+            <h3>References</h3>
+            <a class="whiteRoboto" href="https://www.resakss.org/sites/default/files/Malabo%20Declaration%20on%20Agriculture_2014_11%2026-.pdf" target="_blank">
+                Malabo Declaration on Accelerated Agricultural Growth and Transformation for Shared Prosperity and Improved Livelihoods
+            </a>
+            <a class="whiteRoboto" href="https://unstats.un.org/sdgs/report/2016/goal-02/" target="_blank">Sustainable Development Goals at the United Nations</a>
+            <a class="whiteRoboto" href="http://www.fao.org/faostat/en/#data" target="_blank">Food and Agriculture Organization of the United Nations (FAO Data)</a>
+
+        </div>
+
+    </div>
+</main>
+
+
+
+
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/topojson.min.js"></script>
+<script src="js/d3.min.js"></script>
+<script src="js/d3-tip.js"></script>
+<script src="js/scroll-control.js"></script>
+<script src="js/main.js"></script>
+<script src="js/mod1/mod1.js"></script>
+<script src="js/mod2/mod2_area.js"></script>
+<script src="js/mod2/choroplethArcs.js"></script>
+<script src="js/mod2/choroplethVis.js"></script>
+<script src="js/mod3/mod3.js"></script>
+<script src="js/mod4/mod4.js"></script>
+<script src="js/mod4/mod4ext.js"></script>
+</body>
+</html>
