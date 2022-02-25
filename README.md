@@ -50,12 +50,5 @@ remote: Support for password authentication was removed on August 13, 2021. Plea
 remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
 fatal: Authentication failed for 'https://github.com/kellyawang/kellyawang.github.io.git/'
 ```
-you might need to switch the remote from HTTPS to SSH: https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-ssh-to-https
-
-## One-time setup steps that were performed for initializing this repo
-**2/20/22**
-https://git-scm.com/book/en/v2/Git-Tools-Submodules
-```
-$ cd kellyawang.github.io/_projects/bitsoffood/
-$ git submodule add git@github.com:jessupjs/bits-of-food.git
+you might need to switch the remote from HTTPS to SSH: https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh
 ```

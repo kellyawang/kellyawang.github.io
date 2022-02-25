@@ -1,0 +1,82 @@
+[
+  {
+    "elementCode": "5301",
+    "element": "Domestic supply quantity",
+    "unit": "1000 tonnes"
+  },
+  {
+    "elementCode": "5911",
+    "element": "Export Quantity",
+    "unit": "1000 tonnes"
+  },
+  {
+    "elementCode": "684",
+    "element": "Fat supply quantity (g/capita/day)",
+    "unit": "g/capita/day"
+  },
+  {
+    "elementCode": "5521",
+    "element": "Feed",
+    "unit": "1000 tonnes"
+  },
+  {
+    "elementCode": "5142",
+    "element": "Food",
+    "unit": "1000 tonnes"
+  },
+  {
+    "elementCode": "664",
+    "element": "Food supply (kcal/capita/day)",
+    "unit": "kcal/capita/day"
+  },
+  {
+    "elementCode": "645",
+    "element": "Food supply quantity (kg/capita/yr)",
+    "unit": "kg"
+  },
+  {
+    "elementCode": "5611",
+    "element": "Import Quantity",
+    "unit": "1000 tonnes"
+  },
+  {
+    "elementCode": "5123",
+    "element": "Losses",
+    "unit": "1000 tonnes"
+  },
+  {
+    "elementCode": "5154",
+    "element": "Other uses",
+    "unit": "1000 tonnes"
+  },
+  {
+    "elementCode": "5131",
+    "element": "Processing",
+    "unit": "1000 tonnes"
+  },
+  {
+    "elementCode": "5511",
+    "element": "Production",
+    "unit": "1000 tonnes"
+  },
+  {
+    "elementCode": "674",
+    "element": "Protein supply quantity (g/capita/day)",
+    "unit": "g/capita/day"
+  },
+  {
+    "elementCode": "5527",
+    "element": "Seed",
+    "unit": "1000 tonnes"
+  },
+  {
+    "elementCode": "5072",
+    "element": "Stock Variation",
+    "unit": "1000 tonnes"
+  },
+  {
+    "elementCode": "511",
+    "element": "Total Population - Both sexes",
+    "unit": "1000 persons"
+  }
+]

@@ -1,0 +1,1322 @@
+[
+  {
+    "itemGroupCode": "2924",
+    "itemGroup": "Alcoholic Beverages",
+    "items": [
+      {
+        "itemCode": "2659",
+        "item": "Alcohol, Non-Food"
+      },
+      {
+        "itemCode": "2656",
+        "item": "Beer"
+      },
+      {
+        "itemCode": "2658",
+        "item": "Beverages, Alcoholic"
+      },
+      {
+        "itemCode": "2657",
+        "item": "Beverages, Fermented"
+      },
+      {
+        "itemCode": "2655",
+        "item": "Wine"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2946",
+    "itemGroup": "Animal fats",
+    "items": [
+      {
+        "itemCode": "2740",
+        "item": "Butter, Ghee"
+      },
+      {
+        "itemCode": "2743",
+        "item": "Cream"
+      },
+      {
+        "itemCode": "2737",
+        "item": "Fats, Animals, Raw"
+      },
+      {
+        "itemCode": "2781",
+        "item": "Fish, Body Oil"
+      },
+      {
+        "itemCode": "2782",
+        "item": "Fish, Liver Oil"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2941",
+    "itemGroup": "Animal Products",
+    "items": [
+      {
+        "itemCode": "2769",
+        "item": "Aquatic Animals, Others"
+      },
+      {
+        "itemCode": "2775",
+        "item": "Aquatic Plants"
+      },
+      {
+        "itemCode": "2731",
+        "item": "Bovine Meat"
+      },
+      {
+        "itemCode": "2740",
+        "item": "Butter, Ghee"
+      },
+      {
+        "itemCode": "2766",
+        "item": "Cephalopods"
+      },
+      {
+        "itemCode": "2743",
+        "item": "Cream"
+      },
+      {
+        "itemCode": "2765",
+        "item": "Crustaceans"
+      },
+      {
+        "itemCode": "2762",
+        "item": "Demersal Fish"
+      },
+      {
+        "itemCode": "2744",
+        "item": "Eggs"
+      },
+      {
+        "itemCode": "2737",
+        "item": "Fats, Animals, Raw"
+      },
+      {
+        "itemCode": "2781",
+        "item": "Fish, Body Oil"
+      },
+      {
+        "itemCode": "2782",
+        "item": "Fish, Liver Oil"
+      },
+      {
+        "itemCode": "2761",
+        "item": "Freshwater Fish"
+      },
+      {
+        "itemCode": "2764",
+        "item": "Marine Fish, Other"
+      },
+      {
+        "itemCode": "2768",
+        "item": "Meat, Aquatic Mammals"
+      },
+      {
+        "itemCode": "2735",
+        "item": "Meat, Other"
+      },
+      {
+        "itemCode": "2848",
+        "item": "Milk - Excluding Butter"
+      },
+      {
+        "itemCode": "2767",
+        "item": "Molluscs, Other"
+      },
+      {
+        "itemCode": "2732",
+        "item": "Mutton & Goat Meat"
+      },
+      {
+        "itemCode": "2736",
+        "item": "Offals, Edible"
+      },
+      {
+        "itemCode": "2763",
+        "item": "Pelagic Fish"
+      },
+      {
+        "itemCode": "2733",
+        "item": "Pigmeat"
+      },
+      {
+        "itemCode": "2734",
+        "item": "Poultry Meat"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2961",
+    "itemGroup": "Aquatic Products, Other",
+    "items": [
+      {
+        "itemCode": "2769",
+        "item": "Aquatic Animals, Others"
+      },
+      {
+        "itemCode": "2775",
+        "item": "Aquatic Plants"
+      },
+      {
+        "itemCode": "2768",
+        "item": "Meat, Aquatic Mammals"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2905",
+    "itemGroup": "Cereals - Excluding Beer",
+    "items": [
+      {
+        "itemCode": "2513",
+        "item": "Barley and products"
+      },
+      {
+        "itemCode": "2520",
+        "item": "Cereals, Other"
+      },
+      {
+        "itemCode": "2514",
+        "item": "Maize and products"
+      },
+      {
+        "itemCode": "2517",
+        "item": "Millet and products"
+      },
+      {
+        "itemCode": "2516",
+        "item": "Oats"
+      },
+      {
+        "itemCode": "2805",
+        "item": "Rice (Milled Equivalent)"
+      },
+      {
+        "itemCode": "2515",
+        "item": "Rye and products"
+      },
+      {
+        "itemCode": "2518",
+        "item": "Sorghum and products"
+      },
+      {
+        "itemCode": "2511",
+        "item": "Wheat and products"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2949",
+    "itemGroup": "Eggs",
+    "items": [
+      {
+        "itemCode": "2744",
+        "item": "Eggs"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2960",
+    "itemGroup": "Fish, Seafood",
+    "items": [
+      {
+        "itemCode": "2766",
+        "item": "Cephalopods"
+      },
+      {
+        "itemCode": "2765",
+        "item": "Crustaceans"
+      },
+      {
+        "itemCode": "2762",
+        "item": "Demersal Fish"
+      },
+      {
+        "itemCode": "2761",
+        "item": "Freshwater Fish"
+      },
+      {
+        "itemCode": "2764",
+        "item": "Marine Fish, Other"
+      },
+      {
+        "itemCode": "2767",
+        "item": "Molluscs, Other"
+      },
+      {
+        "itemCode": "2763",
+        "item": "Pelagic Fish"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2919",
+    "itemGroup": "Fruits - Excluding Wine",
+    "items": [
+      {
+        "itemCode": "2617",
+        "item": "Apples and products"
+      },
+      {
+        "itemCode": "2615",
+        "item": "Bananas"
+      },
+      {
+        "itemCode": "2614",
+        "item": "Citrus, Other"
+      },
+      {
+        "itemCode": "2619",
+        "item": "Dates"
+      },
+      {
+        "itemCode": "2625",
+        "item": "Fruits, Other"
+      },
+      {
+        "itemCode": "2613",
+        "item": "Grapefruit and products"
+      },
+      {
+        "itemCode": "2620",
+        "item": "Grapes and products (excl wine)"
+      },
+      {
+        "itemCode": "2612",
+        "item": "Lemons, Limes and products"
+      },
+      {
+        "itemCode": "2611",
+        "item": "Oranges, Mandarines"
+      },
+      {
+        "itemCode": "2618",
+        "item": "Pineapples and products"
+      },
+      {
+        "itemCode": "2616",
+        "item": "Plantains"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2901",
+    "itemGroup": "Grand Total",
+    "items": [
+      {
+        "itemCode": "2659",
+        "item": "Alcohol, Non-Food"
+      },
+      {
+        "itemCode": "2617",
+        "item": "Apples and products"
+      },
+      {
+        "itemCode": "2769",
+        "item": "Aquatic Animals, Others"
+      },
+      {
+        "itemCode": "2775",
+        "item": "Aquatic Plants"
+      },
+      {
+        "itemCode": "2615",
+        "item": "Bananas"
+      },
+      {
+        "itemCode": "2513",
+        "item": "Barley and products"
+      },
+      {
+        "itemCode": "2546",
+        "item": "Beans"
+      },
+      {
+        "itemCode": "2656",
+        "item": "Beer"
+      },
+      {
+        "itemCode": "2658",
+        "item": "Beverages, Alcoholic"
+      },
+      {
+        "itemCode": "2657",
+        "item": "Beverages, Fermented"
+      },
+      {
+        "itemCode": "2731",
+        "item": "Bovine Meat"
+      },
+      {
+        "itemCode": "2740",
+        "item": "Butter, Ghee"
+      },
+      {
+        "itemCode": "2532",
+        "item": "Cassava and products"
+      },
+      {
+        "itemCode": "2766",
+        "item": "Cephalopods"
+      },
+      {
+        "itemCode": "2520",
+        "item": "Cereals, Other"
+      },
+      {
+        "itemCode": "2614",
+        "item": "Citrus, Other"
+      },
+      {
+        "itemCode": "2642",
+        "item": "Cloves"
+      },
+      {
+        "itemCode": "2633",
+        "item": "Cocoa Beans and products"
+      },
+      {
+        "itemCode": "2578",
+        "item": "Coconut Oil"
+      },
+      {
+        "itemCode": "2560",
+        "item": "Coconuts - Incl Copra"
+      },
+      {
+        "itemCode": "2630",
+        "item": "Coffee and products"
+      },
+      {
+        "itemCode": "2559",
+        "item": "Cottonseed"
+      },
+      {
+        "itemCode": "2575",
+        "item": "Cottonseed Oil"
+      },
+      {
+        "itemCode": "2743",
+        "item": "Cream"
+      },
+      {
+        "itemCode": "2765",
+        "item": "Crustaceans"
+      },
+      {
+        "itemCode": "2619",
+        "item": "Dates"
+      },
+      {
+        "itemCode": "2762",
+        "item": "Demersal Fish"
+      },
+      {
+        "itemCode": "2744",
+        "item": "Eggs"
+      },
+      {
+        "itemCode": "2737",
+        "item": "Fats, Animals, Raw"
+      },
+      {
+        "itemCode": "2781",
+        "item": "Fish, Body Oil"
+      },
+      {
+        "itemCode": "2782",
+        "item": "Fish, Liver Oil"
+      },
+      {
+        "itemCode": "2761",
+        "item": "Freshwater Fish"
+      },
+      {
+        "itemCode": "2625",
+        "item": "Fruits, Other"
+      },
+      {
+        "itemCode": "2613",
+        "item": "Grapefruit and products"
+      },
+      {
+        "itemCode": "2620",
+        "item": "Grapes and products (excl wine)"
+      },
+      {
+        "itemCode": "2572",
+        "item": "Groundnut Oil"
+      },
+      {
+        "itemCode": "2556",
+        "item": "Groundnuts (Shelled Eq)"
+      },
+      {
+        "itemCode": "2745",
+        "item": "Honey"
+      },
+      {
+        "itemCode": "2680",
+        "item": "Infant food"
+      },
+      {
+        "itemCode": "2612",
+        "item": "Lemons, Limes and products"
+      },
+      {
+        "itemCode": "2514",
+        "item": "Maize and products"
+      },
+      {
+        "itemCode": "2582",
+        "item": "Maize Germ Oil"
+      },
+      {
+        "itemCode": "2764",
+        "item": "Marine Fish, Other"
+      },
+      {
+        "itemCode": "2768",
+        "item": "Meat, Aquatic Mammals"
+      },
+      {
+        "itemCode": "2735",
+        "item": "Meat, Other"
+      },
+      {
+        "itemCode": "2848",
+        "item": "Milk - Excluding Butter"
+      },
+      {
+        "itemCode": "2517",
+        "item": "Millet and products"
+      },
+      {
+        "itemCode": "2899",
+        "item": "Miscellaneous"
+      },
+      {
+        "itemCode": "2767",
+        "item": "Molluscs, Other"
+      },
+      {
+        "itemCode": "2732",
+        "item": "Mutton & Goat Meat"
+      },
+      {
+        "itemCode": "2551",
+        "item": "Nuts and products"
+      },
+      {
+        "itemCode": "2516",
+        "item": "Oats"
+      },
+      {
+        "itemCode": "2736",
+        "item": "Offals, Edible"
+      },
+      {
+        "itemCode": "2586",
+        "item": "Oilcrops Oil, Other"
+      },
+      {
+        "itemCode": "2570",
+        "item": "Oilcrops, Other"
+      },
+      {
+        "itemCode": "2580",
+        "item": "Olive Oil"
+      },
+      {
+        "itemCode": "2563",
+        "item": "Olives (including preserved)"
+      },
+      {
+        "itemCode": "2602",
+        "item": "Onions"
+      },
+      {
+        "itemCode": "2611",
+        "item": "Oranges, Mandarines"
+      },
+      {
+        "itemCode": "2562",
+        "item": "Palm kernels"
+      },
+      {
+        "itemCode": "2577",
+        "item": "Palm Oil"
+      },
+      {
+        "itemCode": "2576",
+        "item": "Palmkernel Oil"
+      },
+      {
+        "itemCode": "2547",
+        "item": "Peas"
+      },
+      {
+        "itemCode": "2763",
+        "item": "Pelagic Fish"
+      },
+      {
+        "itemCode": "2640",
+        "item": "Pepper"
+      },
+      {
+        "itemCode": "2733",
+        "item": "Pigmeat"
+      },
+      {
+        "itemCode": "2641",
+        "item": "Pimento"
+      },
+      {
+        "itemCode": "2618",
+        "item": "Pineapples and products"
+      },
+      {
+        "itemCode": "2616",
+        "item": "Plantains"
+      },
+      {
+        "itemCode": "2531",
+        "item": "Potatoes and products"
+      },
+      {
+        "itemCode": "2734",
+        "item": "Poultry Meat"
+      },
+      {
+        "itemCode": "2549",
+        "item": "Pulses, Other and products"
+      },
+      {
+        "itemCode": "2574",
+        "item": "Rape and Mustard Oil"
+      },
+      {
+        "itemCode": "2558",
+        "item": "Rape and Mustardseed"
+      },
+      {
+        "itemCode": "2805",
+        "item": "Rice (Milled Equivalent)"
+      },
+      {
+        "itemCode": "2581",
+        "item": "Ricebran Oil"
+      },
+      {
+        "itemCode": "2534",
+        "item": "Roots, Other"
+      },
+      {
+        "itemCode": "2515",
+        "item": "Rye and products"
+      },
+      {
+        "itemCode": "2561",
+        "item": "Sesame seed"
+      },
+      {
+        "itemCode": "2579",
+        "item": "Sesameseed Oil"
+      },
+      {
+        "itemCode": "2518",
+        "item": "Sorghum and products"
+      },
+      {
+        "itemCode": "2571",
+        "item": "Soyabean Oil"
+      },
+      {
+        "itemCode": "2555",
+        "item": "Soyabeans"
+      },
+      {
+        "itemCode": "2645",
+        "item": "Spices, Other"
+      },
+      {
+        "itemCode": "2542",
+        "item": "Sugar (Raw Equivalent)"
+      },
+      {
+        "itemCode": "2537",
+        "item": "Sugar beet"
+      },
+      {
+        "itemCode": "2536",
+        "item": "Sugar cane"
+      },
+      {
+        "itemCode": "2541",
+        "item": "Sugar non-centrifugal"
+      },
+      {
+        "itemCode": "2557",
+        "item": "Sunflower seed"
+      },
+      {
+        "itemCode": "2573",
+        "item": "Sunflowerseed Oil"
+      },
+      {
+        "itemCode": "2533",
+        "item": "Sweet potatoes"
+      },
+      {
+        "itemCode": "2543",
+        "item": "Sweeteners, Other"
+      },
+      {
+        "itemCode": "2635",
+        "item": "Tea (including mate)"
+      },
+      {
+        "itemCode": "2601",
+        "item": "Tomatoes and products"
+      },
+      {
+        "itemCode": "2605",
+        "item": "Vegetables, Other"
+      },
+      {
+        "itemCode": "2511",
+        "item": "Wheat and products"
+      },
+      {
+        "itemCode": "2655",
+        "item": "Wine"
+      },
+      {
+        "itemCode": "2535",
+        "item": "Yams"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2943",
+    "itemGroup": "Meat",
+    "items": [
+      {
+        "itemCode": "2731",
+        "item": "Bovine Meat"
+      },
+      {
+        "itemCode": "2735",
+        "item": "Meat, Other"
+      },
+      {
+        "itemCode": "2732",
+        "item": "Mutton & Goat Meat"
+      },
+      {
+        "itemCode": "2733",
+        "item": "Pigmeat"
+      },
+      {
+        "itemCode": "2734",
+        "item": "Poultry Meat"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2948",
+    "itemGroup": "Milk - Excluding Butter",
+    "items": [
+      {
+        "itemCode": "2848",
+        "item": "Milk - Excluding Butter"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2928",
+    "itemGroup": "Miscellaneous",
+    "items": [
+      {
+        "itemCode": "2680",
+        "item": "Infant food"
+      },
+      {
+        "itemCode": "2899",
+        "item": "Miscellaneous"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2945",
+    "itemGroup": "Offals",
+    "items": [
+      {
+        "itemCode": "2736",
+        "item": "Offals, Edible"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2913",
+    "itemGroup": "Oilcrops",
+    "items": [
+      {
+        "itemCode": "2560",
+        "item": "Coconuts - Incl Copra"
+      },
+      {
+        "itemCode": "2559",
+        "item": "Cottonseed"
+      },
+      {
+        "itemCode": "2556",
+        "item": "Groundnuts (Shelled Eq)"
+      },
+      {
+        "itemCode": "2570",
+        "item": "Oilcrops, Other"
+      },
+      {
+        "itemCode": "2563",
+        "item": "Olives (including preserved)"
+      },
+      {
+        "itemCode": "2562",
+        "item": "Palm kernels"
+      },
+      {
+        "itemCode": "2558",
+        "item": "Rape and Mustardseed"
+      },
+      {
+        "itemCode": "2561",
+        "item": "Sesame seed"
+      },
+      {
+        "itemCode": "2555",
+        "item": "Soyabeans"
+      },
+      {
+        "itemCode": "2557",
+        "item": "Sunflower seed"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2911",
+    "itemGroup": "Pulses",
+    "items": [
+      {
+        "itemCode": "2546",
+        "item": "Beans"
+      },
+      {
+        "itemCode": "2547",
+        "item": "Peas"
+      },
+      {
+        "itemCode": "2549",
+        "item": "Pulses, Other and products"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2923",
+    "itemGroup": "Spices",
+    "items": [
+      {
+        "itemCode": "2642",
+        "item": "Cloves"
+      },
+      {
+        "itemCode": "2640",
+        "item": "Pepper"
+      },
+      {
+        "itemCode": "2641",
+        "item": "Pimento"
+      },
+      {
+        "itemCode": "2645",
+        "item": "Spices, Other"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2907",
+    "itemGroup": "Starchy Roots",
+    "items": [
+      {
+        "itemCode": "2532",
+        "item": "Cassava and products"
+      },
+      {
+        "itemCode": "2531",
+        "item": "Potatoes and products"
+      },
+      {
+        "itemCode": "2534",
+        "item": "Roots, Other"
+      },
+      {
+        "itemCode": "2533",
+        "item": "Sweet potatoes"
+      },
+      {
+        "itemCode": "2535",
+        "item": "Yams"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2922",
+    "itemGroup": "Stimulants",
+    "items": [
+      {
+        "itemCode": "2633",
+        "item": "Cocoa Beans and products"
+      },
+      {
+        "itemCode": "2630",
+        "item": "Coffee and products"
+      },
+      {
+        "itemCode": "2635",
+        "item": "Tea (including mate)"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2909",
+    "itemGroup": "Sugar & Sweeteners",
+    "items": [
+      {
+        "itemCode": "2745",
+        "item": "Honey"
+      },
+      {
+        "itemCode": "2542",
+        "item": "Sugar (Raw Equivalent)"
+      },
+      {
+        "itemCode": "2541",
+        "item": "Sugar non-centrifugal"
+      },
+      {
+        "itemCode": "2543",
+        "item": "Sweeteners, Other"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2908",
+    "itemGroup": "Sugar Crops",
+    "items": [
+      {
+        "itemCode": "2537",
+        "item": "Sugar beet"
+      },
+      {
+        "itemCode": "2536",
+        "item": "Sugar cane"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2912",
+    "itemGroup": "Treenuts",
+    "items": [
+      {
+        "itemCode": "2551",
+        "item": "Nuts and products"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2914",
+    "itemGroup": "Vegetable Oils",
+    "items": [
+      {
+        "itemCode": "2578",
+        "item": "Coconut Oil"
+      },
+      {
+        "itemCode": "2575",
+        "item": "Cottonseed Oil"
+      },
+      {
+        "itemCode": "2572",
+        "item": "Groundnut Oil"
+      },
+      {
+        "itemCode": "2582",
+        "item": "Maize Germ Oil"
+      },
+      {
+        "itemCode": "2586",
+        "item": "Oilcrops Oil, Other"
+      },
+      {
+        "itemCode": "2580",
+        "item": "Olive Oil"
+      },
+      {
+        "itemCode": "2577",
+        "item": "Palm Oil"
+      },
+      {
+        "itemCode": "2576",
+        "item": "Palmkernel Oil"
+      },
+      {
+        "itemCode": "2574",
+        "item": "Rape and Mustard Oil"
+      },
+      {
+        "itemCode": "2581",
+        "item": "Ricebran Oil"
+      },
+      {
+        "itemCode": "2579",
+        "item": "Sesameseed Oil"
+      },
+      {
+        "itemCode": "2571",
+        "item": "Soyabean Oil"
+      },
+      {
+        "itemCode": "2573",
+        "item": "Sunflowerseed Oil"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2918",
+    "itemGroup": "Vegetables",
+    "items": [
+      {
+        "itemCode": "2602",
+        "item": "Onions"
+      },
+      {
+        "itemCode": "2601",
+        "item": "Tomatoes and products"
+      },
+      {
+        "itemCode": "2605",
+        "item": "Vegetables, Other"
+      }
+    ]
+  },
+  {
+    "itemGroupCode": "2903",
+    "itemGroup": "Vegetal Products",
+    "items": [
+      {
+        "itemCode": "2659",
+        "item": "Alcohol, Non-Food"
+      },
+      {
+        "itemCode": "2617",
+        "item": "Apples and products"
+      },
+      {
+        "itemCode": "2615",
+        "item": "Bananas"
+      },
+      {
+        "itemCode": "2513",
+        "item": "Barley and products"
+      },
+      {
+        "itemCode": "2546",
+        "item": "Beans"
+      },
+      {
+        "itemCode": "2656",
+        "item": "Beer"
+      },
+      {
+        "itemCode": "2658",
+        "item": "Beverages, Alcoholic"
+      },
+      {
+        "itemCode": "2657",
+        "item": "Beverages, Fermented"
+      },
+      {
+        "itemCode": "2532",
+        "item": "Cassava and products"
+      },
+      {
+        "itemCode": "2520",
+        "item": "Cereals, Other"
+      },
+      {
+        "itemCode": "2614",
+        "item": "Citrus, Other"
+      },
+      {
+        "itemCode": "2642",
+        "item": "Cloves"
+      },
+      {
+        "itemCode": "2633",
+        "item": "Cocoa Beans and products"
+      },
+      {
+        "itemCode": "2578",
+        "item": "Coconut Oil"
+      },
+      {
+        "itemCode": "2560",
+        "item": "Coconuts - Incl Copra"
+      },
+      {
+        "itemCode": "2630",
+        "item": "Coffee and products"
+      },
+      {
+        "itemCode": "2559",
+        "item": "Cottonseed"
+      },
+      {
+        "itemCode": "2575",
+        "item": "Cottonseed Oil"
+      },
+      {
+        "itemCode": "2619",
+        "item": "Dates"
+      },
+      {
+        "itemCode": "2625",
+        "item": "Fruits, Other"
+      },
+      {
+        "itemCode": "2613",
+        "item": "Grapefruit and products"
+      },
+      {
+        "itemCode": "2620",
+        "item": "Grapes and products (excl wine)"
+      },
+      {
+        "itemCode": "2572",
+        "item": "Groundnut Oil"
+      },
+      {
+        "itemCode": "2556",
+        "item": "Groundnuts (Shelled Eq)"
+      },
+      {
+        "itemCode": "2745",
+        "item": "Honey"
+      },
+      {
+        "itemCode": "2680",
+        "item": "Infant food"
+      },
+      {
+        "itemCode": "2612",
+        "item": "Lemons, Limes and products"
+      },
+      {
+        "itemCode": "2514",
+        "item": "Maize and products"
+      },
+      {
+        "itemCode": "2582",
+        "item": "Maize Germ Oil"
+      },
+      {
+        "itemCode": "2517",
+        "item": "Millet and products"
+      },
+      {
+        "itemCode": "2899",
+        "item": "Miscellaneous"
+      },
+      {
+        "itemCode": "2551",
+        "item": "Nuts and products"
+      },
+      {
+        "itemCode": "2516",
+        "item": "Oats"
+      },
+      {
+        "itemCode": "2586",
+        "item": "Oilcrops Oil, Other"
+      },
+      {
+        "itemCode": "2570",
+        "item": "Oilcrops, Other"
+      },
+      {
+        "itemCode": "2580",
+        "item": "Olive Oil"
+      },
+      {
+        "itemCode": "2563",
+        "item": "Olives (including preserved)"
+      },
+      {
+        "itemCode": "2602",
+        "item": "Onions"
+      },
+      {
+        "itemCode": "2611",
+        "item": "Oranges, Mandarines"
+      },
+      {
+        "itemCode": "2562",
+        "item": "Palm kernels"
+      },
+      {
+        "itemCode": "2577",
+        "item": "Palm Oil"
+      },
+      {
+        "itemCode": "2576",
+        "item": "Palmkernel Oil"
+      },
+      {
+        "itemCode": "2547",
+        "item": "Peas"
+      },
+      {
+        "itemCode": "2640",
+        "item": "Pepper"
+      },
+      {
+        "itemCode": "2641",
+        "item": "Pimento"
+      },
+      {
+        "itemCode": "2618",
+        "item": "Pineapples and products"
+      },
+      {
+        "itemCode": "2616",
+        "item": "Plantains"
+      },
+      {
+        "itemCode": "2531",
+        "item": "Potatoes and products"
+      },
+      {
+        "itemCode": "2549",
+        "item": "Pulses, Other and products"
+      },
+      {
+        "itemCode": "2574",
+        "item": "Rape and Mustard Oil"
+      },
+      {
+        "itemCode": "2558",
+        "item": "Rape and Mustardseed"
+      },
+      {
+        "itemCode": "2805",
+        "item": "Rice (Milled Equivalent)"
+      },
+      {
+        "itemCode": "2581",
+        "item": "Ricebran Oil"
+      },
+      {
+        "itemCode": "2534",
+        "item": "Roots, Other"
+      },
+      {
+        "itemCode": "2515",
+        "item": "Rye and products"
+      },
+      {
+        "itemCode": "2561",
+        "item": "Sesame seed"
+      },
+      {
+        "itemCode": "2579",
+        "item": "Sesameseed Oil"
+      },
+      {
+        "itemCode": "2518",
+        "item": "Sorghum and products"
+      },
+      {
+        "itemCode": "2571",
+        "item": "Soyabean Oil"
+      },
+      {
+        "itemCode": "2555",
+        "item": "Soyabeans"
+      },
+      {
+        "itemCode": "2645",
+        "item": "Spices, Other"
+      },
+      {
+        "itemCode": "2542",
+        "item": "Sugar (Raw Equivalent)"
+      },
+      {
+        "itemCode": "2537",
+        "item": "Sugar beet"
+      },
+      {
+        "itemCode": "2536",
+        "item": "Sugar cane"
+      },
+      {
+        "itemCode": "2541",
+        "item": "Sugar non-centrifugal"
+      },
+      {
+        "itemCode": "2557",
+        "item": "Sunflower seed"
+      },
+      {
+        "itemCode": "2573",
+        "item": "Sunflowerseed Oil"
+      },
+      {
+        "itemCode": "2533",
+        "item": "Sweet potatoes"
+      },
+      {
+        "itemCode": "2543",
+        "item": "Sweeteners, Other"
+      },
+      {
+        "itemCode": "2635",
+        "item": "Tea (including mate)"
+      },
+      {
+        "itemCode": "2601",
+        "item": "Tomatoes and products"
+      },
+      {
+        "itemCode": "2605",
+        "item": "Vegetables, Other"
+      },
+      {
+        "itemCode": "2511",
+        "item": "Wheat and products"
+      },
+      {
+        "itemCode": "2655",
+        "item": "Wine"
+      },
+      {
+        "itemCode": "2535",
+        "item": "Yams"
+      }
+    ]
+  }
+]

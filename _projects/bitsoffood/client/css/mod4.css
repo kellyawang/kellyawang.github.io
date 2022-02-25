@@ -1,0 +1,106 @@
+
+#tooltip {
+    pointer-events: none;
+}
+
+#tooltip path {
+    fill: rgba(0, 0, 0, 0.7);
+}
+
+.ttText {
+    fill: rgba(255, 255, 255, 1);
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+}
+
+.ttTextCountry {
+    font-size: 10px;
+}
+
+.ttTextValue {
+    font-size: 14px;
+    text-anchor: end;
+}
+
+.invisTT {
+    visibility: hidden;
+}
+
+.geoVarCirc {
+    cursor: default;
+    fill: rgba(0, 0, 0, 0.75);
+}
+
+.selVarCirc {
+    fill: rgba(0, 0, 0, 1);
+    transition: fill 250ms ease-out;
+}
+
+.geoWholeCirc {
+    cursor: default;
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgba(0, 0, 0, 0.2);
+    stroke-width: 0.4px;
+}
+
+.selWholeCirc {
+    fill: rgba(255, 178, 0, 0.025);
+    stroke: rgba(0, 0, 0, 0.6);
+    stroke-width: 0.6px;
+    transition: fill, stroke, stroke-width 250ms ease-out;
+}
+
+.geoText {
+    alignment-baseline: middle;
+    cursor: default;
+    fill: rgba(120, 42, 52, 0.99);
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    text-anchor: middle;
+}
+
+.geoTextM {
+    font-size: 11px;
+}
+
+.geoTextL {
+    font-size: 13px;
+}
+
+.selTextDisplay {
+    font-weight: bolder;
+    transition: font-weight 250ms ease-out;
+}
+
+.geoTextName {
+    font-size: 11px;
+    opacity: 0;
+}
+
+.geoTextValue {
+    font-size: 11px;
+    opacity: 0;
+}
+
+.selTextName {
+    font-weight: bolder;
+    opacity: 1;
+    transition: opacity 250ms ease-out;
+}
+
+.selTextName, .selTextValue {
+    opacity: 1;
+    transition: opacity 250ms ease-out;
+}
+
+.linkLine {
+    stroke: rgba(176, 80, 85, 0.66);
+    stroke-width: 0.4px;
+}
+
+.linkPath {
+    fill: rgba(176, 80, 85, 0.66);
+}

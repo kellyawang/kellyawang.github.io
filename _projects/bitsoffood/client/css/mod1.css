@@ -1,0 +1,283 @@
+
+svg {
+    transform: translate3d(0, 0, 0);
+}
+
+/* blackboard*/
+.blackBlackboard {
+    fill: rgba(0, 0, 0, 0.95);
+}
+
+.whiteBlackboard {
+    fill: rgba(255, 255, 255, 1);
+}
+
+/* burstLine */
+.burstLine {
+    stroke: rgba(0, 0, 0, 1);
+    stroke-width: 0.2px;
+}
+
+.burstLine-white {
+    stroke: rgba(255, 255, 255, 0.25);
+    stroke-width: 0.5px;
+}
+
+.burstLine5 {
+    stroke-width: 0.4px;
+}
+
+.burstLine5-white {
+    stroke: rgba(255, 255, 255, 0.25);
+    stroke-width: 1px;
+}
+
+.strongBurstLine {
+    stroke: rgba(213, 155, 51, 0.75);
+    stroke-width: 1.5px;
+}
+
+.handleLine {
+    stroke: rgba(0, 0, 0, 0);
+    stroke-width: 10px;
+}
+
+/* burstCirc */
+.invisBurstCirc {
+    fill: rgba(255, 184, 64, 0);
+}
+
+.visInvisBurstCirc {
+    fill: rgba(255, 184, 64, 0.75);
+}
+
+.visBurstCirc {
+    fill: rgba(0, 0, 0, 0.25);
+}
+
+.invisVisBurstCirc {
+    fill: rgba(0, 0, 0, 0);
+}
+
+/* burstLabel */
+.burstLabel {
+    alignment-baseline: middle;
+    cursor: default;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+    letter-spacing: 0.05rem;
+    text-anchor: middle;
+}
+
+.superVisBurstLabel {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.invisBurstLabel {
+    fill-opacity: 0;
+}
+
+.visInvisBurstLabel {
+    font-size: 12px;
+    font-weight: bolder;
+    fill-opacity: 1;
+}
+
+.fiverBox {
+    fill: rgba(255, 184, 64, 0.75);
+    fill-opacity: 0;
+}
+
+.selFiverBox {
+    fill-opacity: 1;
+}
+
+/* arcPath */
+.arcPath-white {
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.legendArcTextPath {
+    alignment-baseline: middle;
+    cursor: default;
+    fill: rgba(0, 0, 0, 0.75);
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    text-anchor: middle;
+}
+
+.labelArcTextPath {
+    alignment-baseline: middle;
+    cursor: default;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    text-anchor: middle;
+}
+
+.unitArcTextPath {
+    alignment-baseline: middle;
+    cursor: default;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    fill: rgba(0, 0, 0, 0.75);
+    letter-spacing: 0.1rem;
+    text-anchor: middle;
+}
+
+/* linePath */
+.linePath {
+    stroke-width: 1.5px;
+}
+
+/* button */
+.activeButtonG circle {
+    fill: rgba(0, 0, 0, 0.9);
+}
+
+.inactiveButtonG circle {
+    fill: rgba(96, 31, 27, 0.5);
+}
+
+.activeButtonG-white circle {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.inactiveButtonG-white circle {
+    fill: rgba(255, 225, 213, 0.5);
+}
+
+.buttonG text {
+    alignment-baseline: middle;
+    cursor: default;
+    fill: rgba(255, 255, 255, 0.8);
+    font-family: sans-serif;
+    text-anchor: middle;
+}
+
+.activeButtonG text {
+    fill: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    transform: translateY(2px);
+}
+
+.inactiveButtonG text {
+    fill: rgba(255, 255, 255, 0.85);
+    font-size: 12px;
+    transform: translateY(1px);
+}
+
+.activeButtonG-white text {
+    fill: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    transform: translateY(2px);
+}
+
+.inactiveButtonG-white text {
+    fill: rgba(0, 0, 0, 0.85);
+    font-size: 12px;
+    transform: translateY(1px);
+}
+
+/* worldNow */
+.worldNow, .africaNow {
+    fill-opacity: 0.85;
+    stroke-width: 1.5px;
+}
+
+/* ext */
+.worldThen, .africaThen {
+    fill: none;
+    stroke: rgb(255, 0, 0);
+    stroke-width: 0.3px;
+}
+
+.worldThenFainter, .africaThenFainter {
+    stroke-opacity: 0;
+}
+
+.infoLine {
+    stroke: rgba(0, 0, 0, 1);
+    stroke-width: 0.5px;
+}
+
+.infoResult text {
+    alignment-baseline: middle;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+}
+
+.infoPctResult text {
+    font-size: 21px;
+    font-weight: bolder;
+    fill-opacity: 0.9;
+}
+
+.infoPctResultSmall text {
+    font-size: 16px;
+    font-weight: bolder;
+    fill-opacity: 0.9;
+}
+
+.infoPctResultSpan {
+    alignment-baseline: middle;
+    fill: rgba(255, 0, 0, 1);
+    font-size: 13px;
+    font-weight: lighter;
+    fill-opacity: 0.85;
+}
+
+.infoPctResultSpanSmall {
+    font-size: 11px;
+}
+
+/* lineToggleG */
+.lineToggleG {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
+}
+
+.invisibleLineToggleG {
+    opacity: 0;
+}
+
+.lineToggleG circle {
+    cursor: pointer;
+}
+
+.lineToggleText {
+    alignment-baseline: middle;
+    cursor: pointer;
+    fill: rgba(0, 0, 0, 0.8);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-anchor: middle;
+}
+
+/* infoG */
+.infoG .infoTitle {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    text-anchor: start;
+}
+
+/* thenRefLabel */
+.thenRefLabel text {
+    alignment-baseline: middle;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    fill: rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.1rem;
+}
