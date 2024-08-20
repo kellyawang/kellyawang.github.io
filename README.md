@@ -33,12 +33,14 @@ rvm install 2.5.0
 
 Run the website locally using Jekyll:
 ```
-gem install jekyll bundler
+bundle install
 bundle exec jekyll serve
 ```
 Browse to http://localhost:4000 to access the website.
 
 ## Troubleshooting Github
+In [2023](https://github.blog/news-insights/company-news/we-updated-our-rsa-ssh-host-key/) Github updated their RSA Host key. Follow doc to resolve the warning.
+
 As of [Aug 13, 2021](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/), Github deprecated username-password authentication to Github for the command line. You should prob set up a Personal Access Token or SSH access instead:
 > For developers, if you are using a password to authenticate Git operations with GitHub.com today, you must begin using a [personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token) over HTTPS (recommended) or SSH key by August 13, 2021, to avoid disruption. 
 

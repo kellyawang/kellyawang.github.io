@@ -157,4 +157,26 @@
     .NewPioneersWrap {
         padding-top: 20px;
     }
+
+    .painting-title {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    // TODO: add grid for bird images to put titles and measurements in
+    // .simple-grid-container {
+    //     display: grid;
+    //     grid-template-columns: 4fr 1fr;
+    //     column-gap: 10px;
+    // }
+
+    // .item-left {
+    //     grid-column: col 0 / span 2 ;
+    //     grid-row: row ;
+    // }
+
+    // .item-right {
+    //     grid-column: col 3 ;
+    //     grid-row: row ;
+    // }
 }
